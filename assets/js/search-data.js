@@ -430,16 +430,14 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/books/en-us/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-3rd-place-in-the-ptit-robot-soccer-competition",
+          title: '3rd Place in the PTIT Robot Soccer Competition',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-the-paper-implementation-of-compressed-sensing-method-for-foot-pressure-reconstruction-based-on-ai-was-presented-at-the-atc-international-conference-indexed-in-scopus",
+          title: 'The paper “Implementation of Compressed Sensing Method for Foot Pressure Reconstruction Based on...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/en-us/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-encouragement-award-of-the-technology-innovation-competition",
+          title: 'Encouragement Award of the Technology Innovation Competition',
           description: "",
           section: "News",},{id: "projects-project-7",
           title: 'project 7',
