@@ -1,25 +1,25 @@
-| Họ tên               | Đơn vị                                                               | Vai trò          |
+| Full Name            | Unit                                                                 | Role             |
 |-----------------------|----------------------------------------------------------------------|------------------|
-| TS. Phạm Hoàng Anh   | Khoa Kỹ thuật Điện tử 1 - Học viện Công nghệ Bưu chính Viễn thông    | Trưởng Lab       |
-| TS. Đỗ Duy Hiệp Khoa | Khoa Kỹ thuật Điện tử 1 - Học viện Công nghệ Bưu chính Viễn thông    | Phó trưởng Lab   |
-| TS. Mai Thị Nghĩa    | Khoa Kỹ thuật Điện tử 1 - Học viện Công nghệ Bưu chính Viễn thông    | Thành viên chính |
-| TS. Nguyễn Văn Thắng | Khoa Kỹ thuật Điện tử 1 - Học viện Công nghệ Bưu chính Viễn thông    | Thành viên chính |
-| TS. Phạm Vũ Minh Tú  | Trung tâm Hợp tác Quốc tế - HV Công nghệ Bưu chính Viễn thông        | Thành viên chính |
-| TS. Trần Tiến Công   | Khoa Trí tuệ nhân tạo - Học viện Công nghệ Bưu chính Viễn thông      | Thành viên chính |
-| ThS. Phạm Đức Cường  | Khoa Trí tuệ nhân tạo - Học viện Công nghệ Bưu chính Viễn thông      | Thành viên chính |
-| ThS. Đinh Quang Ngọc | Khoa Kỹ thuật Điện tử 1 - Học viện Công nghệ Bưu chính Viễn thông    | Thành viên chính |
-| ThS. Lương Công Duẩn | Khoa Kỹ thuật Điện tử 1 - Học viện Công nghệ Bưu chính Viễn thông    | Thành viên chính |
-| ThS. Trương Minh Đức | Khoa Kỹ thuật Điện tử 1 - Học viện Công nghệ Bưu chính Viễn thông    | Thành viên chính |
-| ThS. Nguyễn Văn Hinh | Phòng Quản lý KHCN & HTQT - HV CN Bưu chính Viễn thông               | Thành viên chính |
-| ThS. Vũ Văn Thương   | Viện KHKT Bưu điện - Học viện Công nghệ Bưu chính Viễn thông         | Thành viên chính |
-| ThS. Chu Văn Cường   | Khoa Kỹ thuật Điện tử 1 - Học viện Công nghệ Bưu chính Viễn thông    | Thành viên       |
-| Nguyễn Quang Khải    | Viễn thông 1                                                         | Thành viên       |
-| Võ Quỳnh Trang       | Viễn thông 1                                                         | Thành viên       |
-| Phạm Minh Khánh      | Viễn thông 1                                                         | Thành viên       |
-| Nguyễn Thanh Lam     | Viễn thông 1                                                         | Thành viên       |
-| Nguyễn Đình Phúc     | Điện tử 1                                                            | Thành viên       |
-| Nguyễn Phúc Đăng Dương| Điện tử 1                                                           | Thành viên       |
-| Trần Quang Chiến     | Điện tử 1                                                            | Thành viên       |
-| Hoàng Trần Tuấn Đạt  | Điện tử 1                                                            | Thành viên       |
-| Nguyễn Duy Đông      | Điện tử 1                                                            | Thành viên       |
-| Phạm Trung Đức Anh   | Điện tử 1                                                            | Thành viên       |
+| TS. Phạm Hoàng Anh   | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Head of Lab      |
+| TS. Đỗ Duy Hiệp      | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Deputy Head of Lab |
+| TS. Mai Thị Nghĩa    | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
+| TS. Nguyễn Văn Thắng | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
+| TS. Phạm Vũ Minh Tú  | Center for International Cooperation - Posts and Telecommunications Institute of Technology | Core Member      |
+| TS. Trần Tiến Công   | Faculty of Artificial Intelligence - Posts and Telecommunications Institute of Technology | Core Member      |
+| ThS. Phạm Đức Cường  | Faculty of Artificial Intelligence - Posts and Telecommunications Institute of Technology | Core Member      |
+| ThS. Đinh Quang Ngọc | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
+| ThS. Lương Công Duẩn | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
+| ThS. Trương Minh Đức | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
+| ThS. Nguyễn Văn Hinh | Department of Science Management & International Cooperation - Posts and Telecommunications Institute of Technology | Core Member      |
+| ThS. Vũ Văn Thương   | Institute of Posts and Telecommunications Science and Technology - Posts and Telecommunications Institute of Technology | Core Member      |
+| ThS. Chu Văn Cường   | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Member           |
+| Nguyễn Quang Khải    | Telecommunications 1                                                 | Member           |
+| Võ Quỳnh Trang       | Telecommunications 1                                                 | Member           |
+| Phạm Minh Khánh      | Telecommunications 1                                                 | Member           |
+| Nguyễn Thanh Lam     | Telecommunications 1                                                 | Member           |
+| Nguyễn Đình Phúc     | Electronics 1                                                        | Member           |
+| Nguyễn Phúc Đăng Dương| Electronics 1                                                       | Member           |
+| Trần Quang Chiến     | Electronics 1                                                        | Member           |
+| Hoàng Trần Tuấn Đạt  | Electronics 1                                                        | Member           |
+| Nguyễn Duy Đông      | Electronics 1                                                        | Member           |
+| Phạm Trung Đức Anh   | Electronics 1                                                        | Member           |
