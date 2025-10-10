@@ -454,9 +454,9 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "projets",handler: () => {
               window.location.href = "/fr-ca/projects/9_project/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-orbslam3",
+          title: 'ORBSLAM3',
+          description: "Localization",
           section: "projets",handler: () => {
               window.location.href = "/fr-ca/projects/en-us/1_project/";
             },},{id: "projects-project-2",
