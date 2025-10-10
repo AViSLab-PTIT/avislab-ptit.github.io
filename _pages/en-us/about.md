@@ -3,14 +3,13 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Address: No. 96A Tran Phu Street, Ha Dong Ward, Hanoi City.
-
+subtitle: <a href='#'>Affiliations.Address. No. 96A Tran Phu Street, Ha Dong Ward, Hanoi City.
 profile:
   align: right
   image: aviss.png
   image_circular: false # crops the image to make it circular
-  //more_info: >
-    //<p>Đ/c: Số 96A Trần Phú, phường Hà Đông, thành phố Hà Nội.</p>
+  more_info: >
+    <p></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
