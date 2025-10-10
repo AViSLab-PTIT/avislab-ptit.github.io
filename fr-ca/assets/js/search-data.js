@@ -444,9 +444,9 @@ ninja.data = [{
           description: "back ground",
           section: "projets",handler: () => {
               window.location.href = "/fr-ca/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-stereo",
+          title: 'Stereo',
+          description: "stereo with camera",
           section: "projets",handler: () => {
               window.location.href = "/fr-ca/projects/8_project/";
             },},{id: "projects-project-9",
