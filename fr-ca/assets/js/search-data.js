@@ -439,9 +439,9 @@ ninja.data = [{
           section: "actualités",},{id: "news-encouragement-award-of-the-technology-innovation-competition",
           title: 'Encouragement Award of the Technology Innovation Competition',
           description: "",
-          section: "actualités",},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+          section: "actualités",},{id: "projects-lidar",
+          title: 'LIDAR',
+          description: "back ground",
           section: "projets",handler: () => {
               window.location.href = "/fr-ca/projects/7_project/";
             },},{id: "projects-project-8",
