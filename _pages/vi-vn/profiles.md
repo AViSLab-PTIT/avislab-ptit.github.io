@@ -14,7 +14,8 @@ profiles:
     image: PHA.jpg
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
-    more_info:
+    more_info: >
+      <p>Ts. Phạm Hoàng Anh</p>
   - align: left
     image: prof_pic.jpg
     content: about_einstein.md
