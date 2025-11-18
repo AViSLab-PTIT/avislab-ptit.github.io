@@ -416,14 +416,21 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/books/en-us/the_godfather/";
-            },},{id: "news-3rd-place-in-the-ptit-robot-soccer-competition",
-          title: '3rd Place in the PTIT Robot Soccer Competition',
+            },},{id: "books-the-godfather",
+          title: 'The Godfather',
           description: "",
-          section: "News",},{id: "news-the-paper-implementation-of-compressed-sensing-method-for-foot-pressure-reconstruction-based-on-ai-was-presented-at-the-atc-international-conference-indexed-in-scopus",
-          title: 'The paper “Implementation of Compressed Sensing Method for Foot Pressure Reconstruction Based on...',
+          section: "",handler: () => {
+              window.location.href = "/books/pt-br/the_godfather/";
+            },},{id: "news-um-anúncio-simples-em-uma-linha",
+          title: 'Um anúncio simples em uma linha.',
           description: "",
-          section: "News",},{id: "news-encouragement-award-of-the-technology-innovation-competition",
-          title: 'Encouragement Award of the Technology Innovation Competition',
+          section: "News",},{id: "news-um-anúncio-longo-com-detalhes",
+          title: 'Um anúncio longo com detalhes',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/pt-br/announcement_2/";
+            },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
+          title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "news-sparkles-our-project-researching-and-designing-a-novel-and-optimized-neural-network-based-on-interleaved-multi-features-to-improve-image-classification-performance-has-been-granted-by-nafosted-for-36-months-member-and-scientific-secretary-id-number-102-01-2024-23",
           title: ':sparkles: Our project “Researching and designing a novel and optimized neural network based...',
@@ -434,11 +441,20 @@ ninja.data = [{
           section: "News",},{id: "news-a-paper-a-light-weight-backbone-to-adapt-with-extracting-grouped-dilation-features-has-been-accepted-for-publication-in-pattern-analysis-and-applications-paa-isi-scopus-q2-if-3-7-2023-collaboration-with-ass-prof-phd-thanh-tuan-nguyen-hcmc-university-of-technology-and-education-vietnam-and-prof-phd-thanh-phuong-nguyen-university-of-cote-d-azur-france",
           title: 'A paper: “A light-weight backbone to adapt with extracting grouped dilation features” has...',
           description: "",
+          section: "News",},{id: "news-encouragement-award-of-the-technology-innovation-competition",
+          title: 'Encouragement Award of the Technology Innovation Competition',
+          description: "",
           section: "News",},{id: "news-sparkles-autonomous-vehicles-and-intelligent-systems-laboratory-avis-lab-was-established-under-decision-no-1665-qd-hv-of-the-director-of-the-posts-and-telecommunications-institute-of-technology-ptit-avis-lab-specializes-in-autonomous-vehicles-intelligent-robots-steam-robots-and-ai-driven-applications-in-robotics",
           title: '🚀 :sparkles: Autonomous Vehicles and Intelligent Systems Laboratory (AViS Lab.) was established under...',
           description: "",
+          section: "News",},{id: "news-3rd-place-in-the-ptit-robot-soccer-competition",
+          title: '3rd Place in the PTIT Robot Soccer Competition',
+          description: "",
           section: "News",},{id: "news-a-paper-implementation-of-compressed-sensing-method-for-foot-pressure-reconstruction-based-on-ai-has-been-accepted-for-presentation-in-2025-international-conference-on-advanced-technologies-for-communications-scopus",
           title: 'A paper: “Implementation of Compressed Sensing Method for Foot Pressure Reconstruction Based on...',
+          description: "",
+          section: "News",},{id: "news-the-paper-implementation-of-compressed-sensing-method-for-foot-pressure-reconstruction-based-on-ai-was-presented-at-the-atc-international-conference-indexed-in-scopus",
+          title: 'The paper “Implementation of Compressed Sensing Method for Foot Pressure Reconstruction Based on...',
           description: "",
           section: "News",},{id: "news-a-paper-transitional-patterns-for-tick-shape-backbones-has-been-accepted-for-presentation-in-2025-international-symposium-on-communications-and-information-technologies-scopus-rank-b",
           title: 'A paper: “Transitional Patterns for Tick-Shape Backbones” has been accepted for presentation in...',
@@ -524,18 +540,11 @@ ninja.data = [{
           window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
-          id: 'lang-pt-br',
-          title: 'pt-br',
+          id: 'lang-vi-vn',
+          title: 'vi-vn',
           section: 'Languages',
           handler: () => {
-            window.location.href = "/pt-br" + updatedUrl;
-          },
-        },{
-          id: 'lang-fr-ca',
-          title: 'fr-ca',
-          section: 'Languages',
-          handler: () => {
-            window.location.href = "/fr-ca" + updatedUrl;
+            window.location.href = "/vi-vn" + updatedUrl;
           },
         },{
       id: 'light-theme',
