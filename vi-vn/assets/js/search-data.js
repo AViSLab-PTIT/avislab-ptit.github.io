@@ -20,14 +20,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/vi-vn/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "um tema simples para acadêmicos",
-          section: "",
-          handler: () => {
-            window.location.href = "/vi-vn/blog/";
-          },
-        },{id: "nav-publicações",
+  },{id: "nav-publicações",
           title: "publicações",
           description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
           section: "",
