@@ -1,5 +1,3 @@
-Escreva sua biografia aqui. Diga ao mundo sobre você. Adicione o link para o seu [subreddit](http://reddit.com) favorito. Você pode colocar uma foto também. O código já está dentro, basta nomear sua foto como `prof_pic.jpg` e colocá-la na pasta `img/`.
+Tôi nhận Bằng tiến sỹ chuyên ngành Robotics và Tự động hoá tại Trường Đại học Toulon, Pháp năm 2021 với luận án: Nghiên cứu thuật toán điều khiển phối hợp nhóm tàu ngầm siêu nhỏ không người lái (AUV) dựa trên phương pháp luận tích hợp trên môi trường mã nguồn mở. Chương trình Tiến sỹ được tài trợ 100% bởi Bộ Giáo dục Cộng hoà Pháp.
 
-Coloque seu endereço / caixa postal / outras informações logo abaixo da sua foto. Você também pode desabilitar qualquer um desses elementos editando a propriedade `profile` do cabeçalho YAML do seu `_pages/about.md`. Edite `_bibliography/papers.bib` e o Jekyll renderizará sua [página de publicações](/multi-language-al-folio/publications/) automaticamente.
-
-Adicione links para seus perfis de mídias sociais também. Este tema está configurado para usar [Font Awesome icons](https://fontawesome.com/) e [Academicons](https://jpswalsh.github.io/academicons/), como os visto abaixo. Adicione seu Facebook, Twitter, LinkedIn, Google Scholar ou simplesmente desative todos eles.
+Lĩnh vực nghiên cứu: Thuật toán điều khiển, định vị và dẫn đường cho nhóm Robots, AUV, UAV.
