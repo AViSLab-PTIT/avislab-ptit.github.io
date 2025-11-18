@@ -27,13 +27,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/vi-vn/projects/";
           },
-        },{id: "nav-repositórios",
-          title: "repositórios",
-          description: "Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.",
-          section: "",
-          handler: () => {
-            window.location.href = "/vi-vn/repositories/";
-          },
         },{id: "nav-membros",
           title: "membros",
           description: "membros do grupo de pesquisa ou laboratório",
