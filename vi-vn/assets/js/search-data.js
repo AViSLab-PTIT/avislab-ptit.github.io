@@ -34,13 +34,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/vi-vn/repositories/";
           },
-        },{id: "nav-ensino",
-          title: "ensino",
-          description: "Materiais de cursos que você ministrou. Substitua esse texto com sua descrição.",
-          section: "",
-          handler: () => {
-            window.location.href = "/vi-vn/teaching/";
-          },
         },{id: "nav-membros",
           title: "membros",
           description: "membros do grupo de pesquisa ou laboratório",
