@@ -1,7 +1,7 @@
 ---
 id: dropdown
 layout: page
-title: submenus
+title: Tuỳ chọn
 nav: true
 nav_order: 8
 dropdown: true
