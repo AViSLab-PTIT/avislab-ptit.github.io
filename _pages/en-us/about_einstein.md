@@ -1,18 +1,18 @@
 | Full Name            | Unit                                                                 | Role             |
 |-----------------------|----------------------------------------------------------------------|------------------|
-| TS. Phạm Hoàng Anh   | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Head of Lab      |
-| TS. Đỗ Duy Hiệp      | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Deputy Head of Lab |
-| TS. Mai Thị Nghĩa    | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
-| TS. Nguyễn Văn Thắng | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
-| TS. Phạm Vũ Minh Tú  | Center for International Cooperation - Posts and Telecommunications Institute of Technology | Core Member      |
-| TS. Trần Tiến Công   | Faculty of Artificial Intelligence - Posts and Telecommunications Institute of Technology | Core Member      |
-| ThS. Phạm Đức Cường  | Faculty of Artificial Intelligence - Posts and Telecommunications Institute of Technology | Core Member      |
-| ThS. Đinh Quang Ngọc | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
-| ThS. Lương Công Duẩn | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
-| ThS. Trương Minh Đức | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
-| ThS. Nguyễn Văn Hinh | Department of Science Management & International Cooperation - Posts and Telecommunications Institute of Technology | Core Member      |
-| ThS. Vũ Văn Thương   | Institute of Posts and Telecommunications Science and Technology - Posts and Telecommunications Institute of Technology | Core Member      |
-| ThS. Chu Văn Cường   | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Member           |
+| PhD. Phạm Hoàng Anh   | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Head of Lab      |
+| PhD. Đỗ Duy Hiệp      | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Deputy Head of Lab |
+| PhD. Mai Thị Nghĩa    | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
+| PhD. Nguyễn Văn Thắng | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
+| PhD. Phạm Vũ Minh Tú  | Center for International Cooperation - Posts and Telecommunications Institute of Technology | Core Member      |
+| PhD. Trần Tiến Công   | Faculty of Artificial Intelligence - Posts and Telecommunications Institute of Technology | Core Member      |
+| MSc. Phạm Đức Cường  | Faculty of Artificial Intelligence - Posts and Telecommunications Institute of Technology | Core Member      |
+| MSc. Đinh Quang Ngọc | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
+| MSc. Lương Công Duẩn | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
+| MSc. Trương Minh Đức | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Core Member      |
+| MSc. Nguyễn Văn Hinh | Department of Science Management & International Cooperation - Posts and Telecommunications Institute of Technology | Core Member      |
+| MSc. Vũ Văn Thương   | Institute of Posts and Telecommunications Science and Technology - Posts and Telecommunications Institute of Technology | Core Member      |
+| MSc. Chu Văn Cường   | Faculty of Electronics Engineering 1 - Posts and Telecommunications Institute of Technology | Member           |
 | Nguyễn Quang Khải    | Telecommunications 1                                                 | Member           |
 | Võ Quỳnh Trang       | Telecommunications 1                                                 | Member           |
 | Phạm Minh Khánh      | Telecommunications 1                                                 | Member           |
