@@ -20,14 +20,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/vi-vn/";
     },
-  },{id: "nav-publicações",
-          title: "publicações",
-          description: "publicações por categoria em ordem cronológica reversa. gerado pelo jekyll-scholar.",
-          section: "",
-          handler: () => {
-            window.location.href = "/vi-vn/publications/";
-          },
-        },{id: "nav-projetos",
+  },{id: "nav-projetos",
           title: "projetos",
           description: "Uma crescente coleção de seus projetos interessantes.",
           section: "",
