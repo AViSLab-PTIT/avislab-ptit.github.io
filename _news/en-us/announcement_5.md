@@ -5,4 +5,5 @@ inline: true
 related_posts: false
 ---
 
-A paper: “Implementation of Compressed Sensing Method for Foot Pressure Reconstruction Based on AI” has been accepted for presentation in 2025 International Conference On Advanced Technologies For Communications, Scopus.
+A paper: “Implementation of Compressed Sensing Method for Foot Pressure Reconstruction Based on AI” 
+has been accepted for presentation in 2025 International Conference On Advanced Technologies For Communications, Scopus.
