@@ -20,8 +20,8 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/vi-vn/";
     },
-  },{id: "nav-projetos",
-          title: "projetos",
+  },{id: "nav-dự-án",
+          title: "Dự án",
           description: "Uma crescente coleção de seus projetos interessantes.",
           section: "",
           handler: () => {
