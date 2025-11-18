@@ -15,7 +15,7 @@ profiles:
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
-    <p>PhD. Phạm Hoàng Anh</p>
+      <p>PhD. Phạm Hoàng Anh</p>
   - align: left
     image: prof_pic.jpg
     content: about_einstein.md
