@@ -421,10 +421,12 @@ ninja.data = [{
           description: "",
           section: "",handler: () => {
               window.location.href = "/books/pt-br/the_godfather/";
-            },},{id: "news-um-anúncio-simples-em-uma-linha",
-          title: 'Um anúncio simples em uma linha.',
+            },},{id: "news-announcement-1",
+          title: 'Announcement_1',
           description: "",
-          section: "News",},{id: "news-um-anúncio-longo-com-detalhes",
+          section: "News",handler: () => {
+              window.location.href = "/news/pt-br/announcement_1/";
+            },},{id: "news-um-anúncio-longo-com-detalhes",
           title: 'Um anúncio longo com detalhes',
           description: "",
           section: "News",handler: () => {
