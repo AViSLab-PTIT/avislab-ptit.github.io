@@ -344,11 +344,21 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
+# Jekyll Polyglot
+# -----------------------------------------------------------------------------
+
 languages: ["en-us", "vi-vn",]
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true
-country_flag: false # set true for allowing flag symbol in language toggle
+country_flag: false
+
+# THÊM CẤU HÌNH NÀY VÀO DƯỚI DÒNG CUỐI CÙNG TRONG PHẦN NÀY:
+# Về cơ bản, nó ánh xạ thư mục `pt-br` thành ngôn ngữ `vi-vn`.
+path_2_lang:
+  pt-br: "vi-vn"
+
 parallel_localization: false
 
 # -----------------------------------------------------------------------------
