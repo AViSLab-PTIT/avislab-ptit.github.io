@@ -21,7 +21,7 @@ profiles:
   # Mục 2: PhD. Đỗ Duy Hiệp
   - align: left
     image: prof_pic.jpg
-    content: about_einstein.md
+    content: 1
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD. Đỗ Duy Hiệp</p>
