@@ -1,5 +1,5 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Currently, I am doing a post-doc at the University of Toulon, mainly researching the coordination of multiple robots in limited communication conditions. This research is financed by a defense research and innovation program in France.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/multi-language-al-folio/publications/) automatically.
+I received my Ph.D. degree in Robotics and Automation from the University of Toulon, France, in 2021. My thesis is Coordination of Autonomous Underwater Systems Based on an Integrated Methodology in an Open-source Environment. My PhD program financed by French Ministry of Education, France.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests include Control, Navigation and Localization for Robotics, Autonomous Underwater Vehicles (AUVs), Unmanned Aerial Vehicles (UAVs), and Applied of Machine Learning in Robotics.
