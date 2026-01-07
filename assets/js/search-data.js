@@ -486,9 +486,9 @@ ninja.data = [{
           description: "research, development, and testing of a multi-purpose UAV system",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-uuv-development-project-for-underwater-exploration",
+          title: 'UUV Development Project for Underwater Exploration',
+          description: "development and testing of an unmanned underwater vehicle system",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/3_project/";
             },},{id: "projects-project-4",
