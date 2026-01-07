@@ -27,85 +27,85 @@ profiles:
       <p>PhD. Đỗ Duy Hiệp</p>
   # Mục 3: PhD. Mai Thị Nghĩa
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: Maithinghia.png
+    content: 2
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD. Mai Thị Nghĩa</p>
   # Mục 4: PhD. Nguyễn Văn Thắng
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: nguyenvanthang.jpg
+    content: 3
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD. Nguyễn Văn Thắng</p>
   # Mục 5: PhD. Phạm Vũ Minh Tú
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: phamvuminhtu.png
+    content: 4
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD. Phạm Vũ Minh Tú </p>
   # Mục 6: PhD. Trần Tiến Công
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: trantiencong.png
+    content: 5
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>PhD. Trần Tiến Công</p>
   # Mục 7: MSc. Phạm Đức Cường
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: phamduccuong.png
+    content: 6
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MSc. Phạm Đức Cường </p>
   # Mục 8: MSc. Đinh Quang Ngọc
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: dinhquangngoc.png
+    content: 7
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MSc. Đinh Quang Ngọc </p>
   # Mục 9: MSc. Lương Công Duẩn
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: luongcongduan.png
+    content: 8
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MSc. Lương Công Duẩn </p>
   # Mục 10: MSc. Trương Minh Đức
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: truongminhduc.png
+    content: 9
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MSc. Trương Minh Đức </p>
   # Mục 11: MSc. Nguyễn Văn Hinh
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: nguyenvanhinh.png
+    content: 10
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MSc. Nguyễn Văn Hinh </p>
   # Mục 12: MSc. Vũ Văn Thương
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: vuvanthuong.png
+    content: 11
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MSc. Vũ Văn Thương </p>
   # Mục 13: MSc. Chu Văn Cường
   - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: chuvancuong.png
+    content: 12
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>MSc. Chu Văn Cường </p>
   # Mục 14: Nguyễn Quang Khải
   - align: left
     image: z6743028781835_b9353f5607af1ba5d8be2555c22fa390.jpg
-    content: about_einstein.md
+    content: 13
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Nguyễn Quang Khải </p>
