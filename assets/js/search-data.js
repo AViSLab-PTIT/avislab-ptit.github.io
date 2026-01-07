@@ -481,9 +481,9 @@ ninja.data = [{
           description: "Localization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-uav-development-project",
+          title: 'UAV Development Project',
+          description: "dự án nghiên cứu, phát triển và thử nghiệm UAV đa nhiệm",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
