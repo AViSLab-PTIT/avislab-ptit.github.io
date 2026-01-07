@@ -111,63 +111,56 @@ profiles:
       <p>Nguyễn Quang Khải </p>
   # Mục 15: Võ Quỳnh Trang
   - align: right
-    image: prof_pic.jpg
+    image: voquynhtrang.png
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Võ Quỳnh Trang </p>
   # Mục 16: Phạm Minh Khánh
   - align: left
-    image: prof_pic.jpg
+    image: minhkhanh.png
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Phạm Minh Khánh </p>
   # Mục 17: Nguyễn Thanh Lam
   - align: right
-    image: prof_pic.jpg
+    image: nguyenthanhlam.png
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Nguyễn Thanh Lam </p>
   # Mục 18: Nguyễn Đình Phúc
   - align: left
-    image: prof_pic.jpg
+    image: phuclai.png
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Nguyễn Đình Phúc </p>
   # Mục 19: Nguyễn Phúc Đăng Dương
   - align: right
-    image: prof_pic.jpg
+    image: duong.png
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Nguyễn Phúc Đăng Dương</p>
   # Mục 20: Trần Quang Chiến
   - align: left
-    image: prof_pic.jpg
+    image: tranquangchien.jpg
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Trần Quang Chiến </p>
-  # Mục 21: Hoàng Trần Tuấn Đạt
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Hoàng Trần Tuấn Đạt </p>
   # Mục 22: Nguyễn Duy Đông
   - align: left
-    image: prof_pic.jpg
+    image: nguyenduydong.jpg
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Nguyễn Duy Đông</p>
   # Mục 23: Phạm Trung Đức Anh
   - align: right
-    image: prof_pic.jpg
+    image: phamducanh.png
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
