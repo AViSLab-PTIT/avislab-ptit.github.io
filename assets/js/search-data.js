@@ -483,7 +483,7 @@ ninja.data = [{
               window.location.href = "/projects/en-us/1_project/";
             },},{id: "projects-uav-development-project",
           title: 'UAV Development Project',
-          description: "dự án nghiên cứu, phát triển và thử nghiệm UAV đa nhiệm",
+          description: "research, development, and testing of a multi-purpose UAV system",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
