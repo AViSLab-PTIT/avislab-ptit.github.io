@@ -3,10 +3,10 @@ page_id: project_2
 layout: page
 title: UAV Development Project
 description: research, development, and testing of a multi-purpose UAV system
-img: uav1.png
+img: assets/img/uav1.png
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 This UAV project focuses on the design, integration, and testing of an unmanned aerial vehicle system intended for surveillance, data acquisition, and autonomous flight missions.
@@ -24,7 +24,7 @@ The development process includes airframe optimization, motor and propeller sele
     </div>
 </div>
 <div class="caption">
-    Key stages of the UAV system: airframe assembly, outdoor flight testing, and payload/sensor integration.
+    Key stages of the UAV system: airframe assembly, outdoor flight testing, and payload and sensor integration.
 </div>
 
 During the testing phase, the UAV was evaluated for altitude holding, directional stability, and control responsiveness.
