@@ -104,7 +104,7 @@ profiles:
       <p>MSc. Chu Văn Cường </p>
   # Mục 14: Nguyễn Quang Khải
   - align: left
-    image: prof_pic.jpg
+    image: z6743028781835_b9353f5607af1ba5d8be2555c22fa390.jpg
     content: about_einstein.md
     image_circular: false # crops the image to make it circular
     more_info: >
