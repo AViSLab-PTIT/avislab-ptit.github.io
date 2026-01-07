@@ -20,7 +20,7 @@ profiles:
       <p>PhD. Phạm Hoàng Anh</p>
   # Mục 2: PhD. Đỗ Duy Hiệp
   - align: left
-    image: prof_pic.jpg
+    image: Đoduyhiep.png
     content: 1
     image_circular: false # crops the image to make it circular
     more_info: >
