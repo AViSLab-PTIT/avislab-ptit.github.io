@@ -14,13 +14,13 @@ The development process includes airframe optimization, motor and propeller sele
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="UAV airframe assembly" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/uav2.png" title="UAV airframe assembly" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="Outdoor flight testing" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/uav3.png" title="Outdoor flight testing" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Payload and sensor integration" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/uav4.png" title="Payload and sensor integration" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -32,7 +32,7 @@ PID parameters were iteratively tuned to ensure stable flight performance under 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Camera and data acquisition test" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/uav5.png" title="Camera and data acquisition test" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -44,10 +44,10 @@ The ground control station (GCS) enables real-time telemetry monitoring, waypoin
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="Autonomous mission flight" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/uav6.png" title="Autonomous mission flight" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="Ground Control Station (GCS)" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/uav1.png" title="Ground Control Station (GCS)" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
