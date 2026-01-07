@@ -151,6 +151,13 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Trần Quang Chiến </p>
+  # Mục 21: Nguyễn Đình Duy
+  - align: right
+    image: nguyendinhduy.png
+    content: about_einstein.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Phạm Trung Đức Anh </p>
   # Mục 22: Nguyễn Duy Đông
   - align: left
     image: nguyenduydong.jpg
