@@ -2,15 +2,15 @@
 page_id: project_2
 layout: page
 title: UAV Development Project
-description: dự án nghiên cứu, phát triển và thử nghiệm UAV đa nhiệm
+description: research, development, and testing of a multi-purpose UAV system
 img: uav1.png
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Dự án UAV này tập trung vào thiết kế, tích hợp và thử nghiệm một hệ thống máy bay không người lái phục vụ cho các nhiệm vụ quan sát, thu thập dữ liệu và bay tự động.
-Quá trình phát triển bao gồm tối ưu khung thân, lựa chọn động cơ – cánh quạt, cấu hình flight controller và kiểm tra độ ổn định trong các điều kiện bay khác nhau.
+This UAV project focuses on the design, integration, and testing of an unmanned aerial vehicle system intended for surveillance, data acquisition, and autonomous flight missions.
+The development process includes airframe optimization, motor and propeller selection, flight controller configuration, and stability evaluation under various flight conditions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -24,11 +24,11 @@ Quá trình phát triển bao gồm tối ưu khung thân, lựa chọn động 
     </div>
 </div>
 <div class="caption">
-    Các giai đoạn chính của hệ thống UAV: lắp ráp khung thân, bay thử ngoài thực địa và tích hợp payload/cảm biến.
+    Key stages of the UAV system: airframe assembly, outdoor flight testing, and payload/sensor integration.
 </div>
 
-Trong giai đoạn thử nghiệm, UAV được kiểm tra khả năng giữ độ cao, ổn định phương hướng và phản hồi điều khiển.
-Các tham số PID được tinh chỉnh nhiều lần nhằm đảm bảo UAV hoạt động ổn định khi mang tải và trong điều kiện gió nhẹ.
+During the testing phase, the UAV was evaluated for altitude holding, directional stability, and control responsiveness.
+PID parameters were iteratively tuned to ensure stable flight performance under payload conditions and in light wind environments.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -36,11 +36,11 @@ Các tham số PID được tinh chỉnh nhiều lần nhằm đảm bảo UAV h
     </div>
 </div>
 <div class="caption">
-    Thử nghiệm hệ thống camera và chất lượng dữ liệu thu được trong quá trình bay.
+    Testing of the onboard camera system and evaluation of data quality during flight.
 </div>
 
-Sau khi hoàn tất các bài test cơ bản, UAV được triển khai cho các chuyến bay nhiệm vụ mô phỏng.
-Hệ thống điều khiển mặt đất (GCS) cho phép theo dõi telemetry thời gian thực, lập kế hoạch waypoint và ghi lại dữ liệu bay để phân tích hậu kỳ.
+After completing the basic flight tests, the UAV was deployed for simulated mission flights.
+The ground control station (GCS) enables real-time telemetry monitoring, waypoint-based mission planning, and flight data logging for post-flight analysis.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -51,8 +51,8 @@ Hệ thống điều khiển mặt đất (GCS) cho phép theo dõi telemetry th
     </div>
 </div>
 <div class="caption">
-    Chuyến bay nhiệm vụ tự động và trạm điều khiển mặt đất giám sát toàn bộ hệ thống UAV.
+    Autonomous mission flight and the ground control station supervising the UAV system.
 </div>
 
-Kết quả dự án cho thấy UAV đạt được độ ổn định tốt, khả năng bay tự động chính xác theo waypoint và đáp ứng yêu cầu cho các ứng dụng quan sát, khảo sát hoặc nghiên cứu.
-Hệ thống có thể tiếp tục mở rộng với các payload chuyên dụng như camera đa phổ, LiDAR hoặc module truyền thông tầm xa.
+The project results demonstrate that the UAV achieves good stability, accurate waypoint-based autonomous flight, and meets the requirements for surveillance, surveying, and research applications.
+The system can be further extended with specialized payloads such as multispectral cameras, LiDAR sensors, or long-range communication modules.
