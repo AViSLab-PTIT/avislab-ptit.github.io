@@ -6,23 +6,20 @@
 
 {% assign month_key = months[m] %}
 
-{% assign month = site.data[site.active_lang].strings.months[include.format][month_key]
-  | default: site.data[site.active_lang].strings.months.long[month_key] %}
-
-{% comment %}
-  Language specific date formats
-{% endcomment %}
-
 {%- if site.active_lang == 'en-us' -%}
+  {% assign month = site.data.en-us.strings.months.short[month_key] %}
   {{ month }} {{ day }}, {{ year }}
 
-{%- elsif site.active_lang == 'fr-ca' -%}
-  {{ day }} {{ month }}, {{ year }}
-
-{%- elsif site.active_lang == 'pt-br' -%}
-  {{ day }} de {{ month }}, {{ year }}
-
-{%- else -%}
+{%- elsif site.active_lang == 'vi' or site.active_lang == 'pt-br' -%}
+  {% assign lang = site.active_lang %}
+  {% assign month = site.data[lang].strings.months.short[month_key]
+    | default: site.data[lang].strings.months.long[month_key] %}
   {{ day }} {{ month }} {{ year }}
 
+{%- elsif site.active_lang == 'fr-ca' -%}
+  {% assign month = site.data.fr-ca.strings.months.long[month_key] %}
+  {{ day }} {{ month }}, {{ year }}
+
+{%- else -%}
+  {{ day }} {{ month_key }} {{ year }}
 {%- endif -%}
