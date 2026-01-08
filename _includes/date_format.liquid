@@ -5,20 +5,15 @@
 {% assign year = include.date | date: '%Y' %}
 
 {% assign month_key = months[m] %}
+{% assign lang = site.active_lang %}
 
-{%- if site.active_lang == 'en-us' -%}
-  {% assign month = site.data.en-us.strings.months.short[month_key] %}
+{%- if lang == 'en-us' -%}
+  {% assign month = site.data['en-us'].strings.months.short[month_key] %}
   {{ month }} {{ day }}, {{ year }}
 
-{%- elsif site.active_lang == 'vi' or site.active_lang == 'pt-br' -%}
-  {% assign lang = site.active_lang %}
-  {% assign month = site.data[lang].strings.months.short[month_key]
-    | default: site.data[lang].strings.months.long[month_key] %}
+{%- elsif lang == 'pt-br' -%}
+  {% assign month = site.data['pt-br'].strings.months.short[month_key] %}
   {{ day }} {{ month }} {{ year }}
-
-{%- elsif site.active_lang == 'fr-ca' -%}
-  {% assign month = site.data.fr-ca.strings.months.long[month_key] %}
-  {{ day }} {{ month }}, {{ year }}
 
 {%- else -%}
   {{ day }} {{ month_key }} {{ year }}
