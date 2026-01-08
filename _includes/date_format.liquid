@@ -8,11 +8,11 @@
 {% assign lang = site.active_lang %}
 
 {%- if lang == 'en-us' -%}
-  {% assign month = site.data['en-us'].strings.months.short[month_key] %}
+  {% assign month = site.data['en-us']['strings'].months.short[month_key] %}
   {{ month }} {{ day }}, {{ year }}
 
 {%- elsif lang == 'pt-br' -%}
-  {% assign month = site.data['pt-br'].strings.months.short[month_key] %}
+  {% assign month = site.data['pt-br']['strings'].months.short[month_key] %}
   {{ day }} {{ month }} {{ year }}
 
 {%- else -%}
