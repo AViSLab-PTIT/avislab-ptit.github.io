@@ -1,18 +1,14 @@
-{% assign months = 'january|february|march|april|may|june|july|august|september|october|november|december' | split: '|' %}
-
-{% assign m = include.date | date: '%-m' | minus: 1 %}
-{% assign day = include.date | date: '%d' %}
 {% assign year = include.date | date: '%Y' %}
-
-{% assign month_key = months[m] %}
 {% assign lang = site.active_lang %}
-{% assign fmt = include.format | default: 'short' %}
 
 {%- if lang == 'en-us' -%}
+  {% assign months = 'january|february|march|april|may|june|july|august|september|october|november|december' | split: '|' %}
+  {% assign m = include.date | date: '%-m' | minus: 1 %}
+  {% assign day = include.date | date: '%d' %}
+  {% assign month_key = months[m] %}
+  {% assign fmt = include.format | default: 'short' %}
   {% assign month = site.data['en-us']['strings'].months[fmt][month_key] %}
   {{ month }} {{ day }}, {{ year }}
-
 {%- else -%}
-  {% assign month = site.data[lang]['strings'].months[fmt][month_key] %}
-  {{ day }} {{ month }} {{ year }}
+  {{ year }}
 {%- endif -%}
