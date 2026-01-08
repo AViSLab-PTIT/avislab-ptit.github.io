@@ -28,7 +28,7 @@ ninja.data = [{
             window.location.href = "/vi-vn/projects/";
           },
         },{id: "nav-nhân-lực",
-          title: "NHÂN LỰC",
+          title: "Nhân lực",
           description: "Thành viên của phòng thí nghiệm / nhóm nghiên cứu",
           section: "",
           handler: () => {
