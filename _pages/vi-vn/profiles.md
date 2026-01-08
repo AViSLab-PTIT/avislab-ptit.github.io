@@ -2,7 +2,7 @@
 page_id: profiles
 layout: profiles
 permalink: /people/
-title: NHÂN LỰC
+title: Nhân lực
 description: Thành viên của phòng thí nghiệm / nhóm nghiên cứu
 nav: true
 nav_order: 7
