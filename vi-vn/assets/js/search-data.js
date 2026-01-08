@@ -27,9 +27,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/vi-vn/projects/";
           },
-        },{id: "nav-thành-viên",
-          title: "Thành viên",
-          description: "members of the lab or group",
+        },{id: "nav-nhân-lực",
+          title: "NHÂN LỰC",
+          description: "Thành viên của phòng thí nghiệm / nhóm nghiên cứu",
           section: "",
           handler: () => {
             window.location.href = "/vi-vn/people/";
