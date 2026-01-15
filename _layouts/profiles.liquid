@@ -2,7 +2,7 @@
 layout: page
 ---
 
-{% assign lang = site.lang | default: "vi" %}
+{% assign lang = site.lang | default: "en-us" %}
 
 <div class="post">
   <article>
@@ -10,7 +10,7 @@ layout: page
 
     <!-- ================= LECTURERS ================= -->
     <h2 class="people-title">
-      {% if lang == "en" %}Lecturers{% else %}Giảng viên{% endif %}
+      {% if lang == "en-us" %}Lecturers{% else %}Giảng viên{% endif %}
     </h2>
 
     <div class="profiles-grid">
@@ -42,7 +42,7 @@ layout: page
 
     <!-- ================= STUDENTS ================= -->
     <h2 class="people-title">
-      {% if lang == "en" %}Students{% else %}Sinh viên{% endif %}
+      {% if lang == "en-us" %}Students{% else %}Sinh viên{% endif %}
     </h2>
 
     <div class="profiles-grid">
