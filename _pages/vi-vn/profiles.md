@@ -9,7 +9,7 @@ nav_order: 7
 
 profiles:
   - role: lecturer
-    image: PHA.jpg
+    image: HoangAnhPham.png
     content: about_einstein.md
     image_circular: false
     more_info: >
@@ -168,4 +168,18 @@ profiles:
     image_circular: false
     more_info: >
       <p>Phạm Trung Đức Anh</p>
+
+  - role: student
+    image: NGUYENVAN HAI.jpg
+    content: about_einstein.md
+    image_circular: false
+    more_info: >
+      <p>Nguyễn Văn Hải</p>
+
+  - role: student
+    image: HUngNQ.jpg
+    content: about_einstein.md
+    image_circular: false
+    more_info: >
+      <p>Nguyễn Quang Hưng</p>
 ---
