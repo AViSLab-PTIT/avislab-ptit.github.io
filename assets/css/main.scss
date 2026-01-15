@@ -28,38 +28,43 @@ $max-content-width: {{ site.max_width }};
    PEOPLE PAGE – 5 PEOPLE / 1 ROW – IMAGE SAME SIZE
    ========================================================= */
 
-.profiles {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 người / 1 hàng */
-  gap: 20px;
+.profiles-grid {
+  display: grid !important;
+  grid-template-columns: repeat(5, minmax(0, 1fr)) !important;
+  gap: 24px;
   margin-top: 30px;
 }
 
-.profile {
+.profile-card {
   text-align: center;
+  width: auto !important;
 }
 
-.profile img {
-  width: 140px;
-  height: 180px;
-  object-fit: cover; /* ảnh luôn đều */
+/* ép ảnh không bị full width */
+.profile-card img {
+  width: 140px !important;
+  height: 180px !important;
+  max-width: 140px !important;
+  object-fit: cover;
   border-radius: 8px;
+  margin: 0 auto;
+  display: block;
 }
 
-.profile p {
-  margin-top: 10px;
+.profile-card .more-info p {
+  margin: 10px 0 0;
   font-weight: 600;
 }
 
 /* ===== Responsive ===== */
 @media (max-width: 1200px) {
-  .profiles {
+  .profiles-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 768px) {
-  .profiles {
+  .profiles-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
