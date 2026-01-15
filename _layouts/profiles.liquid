@@ -5,61 +5,43 @@ layout: page
 <div class="post">
   <article>
     {% if page.profiles %}
-    <div class="container">
+    <div class="profiles-grid">
 
       {% for profile in page.profiles %}
-        {% assign index = forloop.index0 | modulo: 3 %}
-        {% if index == 0 %}
-        <div class="row mb-4">
-        {% endif %}
+        <div class="profile-card text-center">
 
-        <div class="col-md-4 col-sm-6 mb-3">
-          <div class="profile-card text-center h-100">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'profile-img rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'profile-img' %}
+            {% endif %}
 
-            {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid rounded-circle mb-2' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid rounded mb-2' %}
-              {% endif %}
+            {% include figure.liquid
+              loading="eager"
+              path=profile_image_path
+              class=profile_image_class
+              alt=profile.image
+            %}
+          {% endif %}
 
-              {% capture sizes %}
-              (min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px,
-              (min-width: 576px) 30vw,
-              95vw
+          {% if profile.more_info %}
+            <div class="more-info">
+              {{ profile.more_info }}
+            </div>
+          {% endif %}
+
+          {% if profile.content %}
+            <div class="profile-content">
+              {% capture profile_content %}
+                {% include_relative {{ profile.content }} %}
               {% endcapture %}
+              {{ profile_content | markdownify }}
+            </div>
+          {% endif %}
 
-              {% include figure.liquid
-                loading="eager"
-                path=profile_image_path
-                class=profile_image_class
-                sizes=sizes
-                alt=profile.image
-              %}
-            {% endif %}
-
-            {% if profile.more_info %}
-              <div class="more-info">
-                {{ profile.more_info }}
-              </div>
-            {% endif %}
-
-            {% if profile.content %}
-              <div class="profile-content mt-2">
-                {% capture profile_content %}
-                  {% include_relative {{ profile.content }} %}
-                {% endcapture %}
-                {{ profile_content | markdownify }}
-              </div>
-            {% endif %}
-
-          </div>
         </div>
-
-        {% if index == 2 or forloop.last %}
-        </div>
-        {% endif %}
       {% endfor %}
 
     </div>
