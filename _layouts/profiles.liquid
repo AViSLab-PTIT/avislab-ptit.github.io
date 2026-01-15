@@ -2,22 +2,25 @@
 layout: page
 ---
 
+{% assign lang = site.lang | default: "vi" %}
+
 <div class="post">
   <article>
     {% if page.profiles %}
-    <div class="profiles-grid">
 
+    <!-- ================= LECTURERS ================= -->
+    <h2 class="people-title">
+      {% if lang == "en" %}Lecturers{% else %}Giảng viên{% endif %}
+    </h2>
+
+    <div class="profiles-grid">
       {% for profile in page.profiles %}
+        {% if profile.role == "lecturer" %}
         <div class="profile-card">
 
           {% if profile.image %}
             {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'profile-img rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'profile-img' %}
-            {% endif %}
-
+            {% assign profile_image_class = profile.image_circular | default: false | if: 'profile-img rounded-circle', else: 'profile-img' %}
             {% include figure.liquid
               loading="eager"
               path=profile_image_path
@@ -32,19 +35,43 @@ layout: page
             </div>
           {% endif %}
 
-          {% if profile.content %}
-            <div class="profile-content">
-              {% capture profile_content %}
-                {% include_relative {{ profile.content }} %}
-              {% endcapture %}
-              {{ profile_content | markdownify }}
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <!-- ================= STUDENTS ================= -->
+    <h2 class="people-title">
+      {% if lang == "en" %}Students{% else %}Sinh viên{% endif %}
+    </h2>
+
+    <div class="profiles-grid">
+      {% for profile in page.profiles %}
+        {% if profile.role == "student" %}
+        <div class="profile-card">
+
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% assign profile_image_class = profile.image_circular | default: false | if: 'profile-img rounded-circle', else: 'profile-img' %}
+            {% include figure.liquid
+              loading="eager"
+              path=profile_image_path
+              class=profile_image_class
+              alt=profile.image
+            %}
+          {% endif %}
+
+          {% if profile.more_info %}
+            <div class="more-info">
+              {{ profile.more_info }}
             </div>
           {% endif %}
 
         </div>
+        {% endif %}
       {% endfor %}
-
     </div>
+
     {% endif %}
   </article>
 </div>
