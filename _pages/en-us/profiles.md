@@ -8,168 +8,164 @@ nav: true
 nav_order: 7
 
 profiles:
-  # -----------------------------------------------------------------------------
-  # DÀNH CHO TIẾNG VIỆT (Bạn có thể thay đổi 'people' thành 'NHÂN LỰC' ở trên)
-  # -----------------------------------------------------------------------------
-  # Mục 1: PhD. Phạm Hoàng Anh
-  - align: right
+  - role: lecturer
     image: PHA.jpg
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
       <p>PhD. Phạm Hoàng Anh</p>
-  # Mục 2: PhD. Đỗ Duy Hiệp
-  - align: left
+
+  - role: lecturer
     image: Đoduyhiep.png
     content: 1
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
       <p>PhD. Đỗ Duy Hiệp</p>
-  # Mục 3: PhD. Mai Thị Nghĩa
-  - align: right
+
+  - role: lecturer
     image: Maithinghia.png
     content: 2
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
       <p>PhD. Mai Thị Nghĩa</p>
-  # Mục 4: PhD. Nguyễn Văn Thắng
-  - align: left
+
+  - role: lecturer
     image: nguyenvanthang.jpg
     content: 3
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
       <p>PhD. Nguyễn Văn Thắng</p>
-  # Mục 5: PhD. Phạm Vũ Minh Tú
-  - align: right
+
+  - role: lecturer
     image: phamvuminhtu.png
     content: 4
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>PhD. Phạm Vũ Minh Tú </p>
-  # Mục 6: PhD. Trần Tiến Công
-  - align: left
+      <p>PhD. Phạm Vũ Minh Tú</p>
+
+  - role: lecturer
     image: trantiencong.png
     content: 5
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
       <p>PhD. Trần Tiến Công</p>
-  # Mục 7: MSc. Phạm Đức Cường
-  - align: right
+
+  - role: lecturer
     image: phamduccuong.png
     content: 6
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>MSc. Phạm Đức Cường </p>
-  # Mục 8: MSc. Đinh Quang Ngọc
-  - align: left
+      <p>MSc. Phạm Đức Cường</p>
+
+  - role: lecturer
     image: dinhquangngoc.png
     content: 7
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>MSc. Đinh Quang Ngọc </p>
-  # Mục 9: MSc. Lương Công Duẩn
-  - align: right
+      <p>MSc. Đinh Quang Ngọc</p>
+
+  - role: lecturer
     image: luongcongduan.png
     content: 8
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>MSc. Lương Công Duẩn </p>
-  # Mục 10: MSc. Trương Minh Đức
-  - align: left
+      <p>MSc. Lương Công Duẩn</p>
+
+  - role: lecturer
     image: truongminhduc.png
     content: 9
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>MSc. Trương Minh Đức </p>
-  # Mục 11: MSc. Nguyễn Văn Hinh
-  - align: right
+      <p>MSc. Trương Minh Đức</p>
+
+  - role: lecturer
     image: nguyenvanhinh.png
     content: 10
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>MSc. Nguyễn Văn Hinh </p>
-  # Mục 12: MSc. Vũ Văn Thương
-  - align: left
+      <p>MSc. Nguyễn Văn Hinh</p>
+
+  - role: lecturer
     image: vuvanthuong.png
     content: 11
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>MSc. Vũ Văn Thương </p>
-  # Mục 13: MSc. Chu Văn Cường
-  - align: right
+      <p>MSc. Vũ Văn Thương</p>
+
+  - role: lecturer
     image: chuvancuong.png
     content: 12
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>MSc. Chu Văn Cường </p>
-  # Mục 14: Nguyễn Quang Khải
-  - align: left
+      <p>MSc. Chu Văn Cường</p>
+
+  - role: student
     image: z6743028781835_b9353f5607af1ba5d8be2555c22fa390.jpg
     content: 13
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>Nguyễn Quang Khải </p>
-  # Mục 15: Võ Quỳnh Trang
-  - align: right
+      <p>Nguyễn Quang Khải</p>
+
+  - role: student
     image: voquynhtrang.png
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>Võ Quỳnh Trang </p>
-  # Mục 16: Phạm Minh Khánh
-  - align: left
+      <p>Võ Quỳnh Trang</p>
+
+  - role: student
     image: minhkhanh.png
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>Phạm Minh Khánh </p>
-  # Mục 17: Nguyễn Thanh Lam
-  - align: right
+      <p>Phạm Minh Khánh</p>
+
+  - role: student
     image: nguyenthanhlam.png
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>Nguyễn Thanh Lam </p>
-  # Mục 18: Nguyễn Đình Phúc
-  - align: left
+      <p>Nguyễn Thanh Lam</p>
+
+  - role: student
     image: phuclai.png
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>Nguyễn Đình Phúc </p>
-  # Mục 19: Nguyễn Phúc Đăng Dương
-  - align: right
+      <p>Nguyễn Đình Phúc</p>
+
+  - role: student
     image: duong.png
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
       <p>Nguyễn Phúc Đăng Dương</p>
-  # Mục 20: Trần Quang Chiến
-  - align: left
+
+  - role: student
     image: tranquangchien.jpg
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>Trần Quang Chiến </p>
-  # Mục 21: Nguyễn Đình Duy
-  - align: right
+      <p>Trần Quang Chiến</p>
+
+  - role: student
     image: nguyendinhduy.png
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>Nguyễn Đình Duy </p>
-  # Mục 22: Nguyễn Duy Đông
-  - align: left
+      <p>Nguyễn Đình Duy</p>
+
+  - role: student
     image: nguyenduydong.jpg
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
       <p>Nguyễn Duy Đông</p>
-  # Mục 23: Phạm Trung Đức Anh
-  - align: right
+
+  - role: student
     image: phamducanh.png
     content: about_einstein.md
-    image_circular: false # crops the image to make it circular
+    image_circular: false
     more_info: >
-      <p>Phạm Trung Đức Anh </p>
+      <p>Phạm Trung Đức Anh</p>
 ---
