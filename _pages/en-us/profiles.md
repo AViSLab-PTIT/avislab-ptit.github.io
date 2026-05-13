@@ -55,7 +55,7 @@ profiles:
     content: 6
     image_circular: false
     more_info: >
-      <p>PhD. PhD> Hoàng Mạnh Cường</p>
+      <p>PhD. Hoàng Mạnh Cường</p>
 
   - role: lecturer
     image: phamduccuong.png
