@@ -49,52 +49,59 @@ profiles:
     image_circular: false
     more_info: >
       <p>PhD. Trần Tiến Công</p>
+      
+  - role: lecturer
+    image: TS. Hoàng Mạnh Cường.jpg
+    content: 6
+    image_circular: false
+    more_info: >
+      <p>PhD. PhD> Hoàng Mạnh Cường</p>
 
   - role: lecturer
     image: phamduccuong.png
-    content: 6
+    content: 7
     image_circular: false
     more_info: >
       <p>MSc. Phạm Đức Cường</p>
 
   - role: lecturer
     image: dinhquangngoc.png
-    content: 7
+    content: 8
     image_circular: false
     more_info: >
       <p>MSc. Đinh Quang Ngọc</p>
 
   - role: lecturer
     image: luongcongduan.png
-    content: 8
+    content: 9
     image_circular: false
     more_info: >
       <p>MSc. Lương Công Duẩn</p>
 
   - role: lecturer
     image: truongminhduc.png
-    content: 9
+    content: 10
     image_circular: false
     more_info: >
       <p>MSc. Trương Minh Đức</p>
 
   - role: lecturer
     image: nguyenvanhinh.png
-    content: 10
+    content: 11
     image_circular: false
     more_info: >
       <p>MSc. Nguyễn Văn Hinh</p>
 
   - role: lecturer
     image: vuvanthuong.png
-    content: 11
+    content: 12
     image_circular: false
     more_info: >
       <p>MSc. Vũ Văn Thương</p>
 
   - role: lecturer
     image: chuvancuong.png
-    content: 12
+    content: 13
     image_circular: false
     more_info: >
       <p>MSc. Chu Văn Cường</p>
