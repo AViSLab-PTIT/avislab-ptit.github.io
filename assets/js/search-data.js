@@ -22,7 +22,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "Research platforms and engineering prototypes from AVIS Lab.",
+          description: "Research tracks, field prototypes, and robotics platforms from AVIS Lab.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/projects/";

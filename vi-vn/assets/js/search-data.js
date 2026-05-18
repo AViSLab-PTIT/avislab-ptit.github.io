@@ -22,7 +22,7 @@ ninja.data = [{
     },
   },{id: "nav-dự-án",
           title: "Dự án",
-          description: "Các nền tảng nghiên cứu và nguyên mẫu kỹ thuật của AVIS Lab.",
+          description: "Các hướng nghiên cứu, nguyên mẫu thực địa và nền tảng robot của AVIS Lab.",
           section: "Menu điều hướng",
           handler: () => {
             window.location.href = "/vi-vn/projects/";
