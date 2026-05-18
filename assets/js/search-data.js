@@ -22,7 +22,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research platforms and engineering prototypes from AVIS Lab.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/projects/";
@@ -508,51 +508,46 @@ ninja.data = [{
             },},{id: "news-a-paper-lightweight-moment-residual-coherent-patterns-for-image-recognition-authors-tt-nguyen-ha-pham-tp-nguyen-tv-le-hn-vu-vd-hoang-venue-pattern-recognition-letters",
           title: 'A paper: “Lightweight moment-residual-coherent patterns for image recognition”. Authors: TT Nguyen, HA Pham,...',
           description: "",
-          section: "News",},{id: "projects-lidar",
-          title: 'LIDAR',
-          description: "back ground",
+          section: "News",},{id: "projects-lidar-perception",
+          title: 'LiDAR Perception',
+          description: "Laser-based 3D sensing for mapping, obstacle detection, and navigation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-stereo",
-          title: 'Stereo',
-          description: "stereo with camera",
+            },},{id: "projects-stereo-vision",
+          title: 'Stereo Vision',
+          description: "Depth perception with stereo cameras for navigation and obstacle awareness.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "projects-orbslam3",
-          title: 'ORBSLAM3',
-          description: "Localization",
+            },},{id: "projects-orb-slam3",
+          title: 'ORB-SLAM3',
+          description: "Visual and visual-inertial localization and mapping for mobile robots.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/1_project/";
             },},{id: "projects-uav-development-project",
           title: 'UAV Development Project',
-          description: "research, development, and testing of a multi-purpose UAV system",
+          description: "Design, integration, and testing of a multi-purpose autonomous UAV system.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/2_project/";
             },},{id: "projects-uuv-development-project-for-underwater-exploration",
           title: 'UUV Development Project for Underwater Exploration',
-          description: "development and testing of an unmanned underwater vehicle system",
+          description: "Unmanned underwater vehicle development for exploration, control, and simulation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/en-us/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-projeto-4",
+          title: 'projeto 4',
+          description: "outro sem imagem",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/pt-br/4_project/";
+            },},{id: "projects-projeto-5",
+          title: 'projeto 5',
+          description: "um projeto com imagem de fundo",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/pt-br/5_project/";
+            },},{id: "projects-projeto-6",
+          title: 'projeto 6',
+          description: "um projeto sem imagem",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/6_project/";
+              window.location.href = "/projects/pt-br/6_project/";
             },},{
         id: 'social-email',
         title: 'Send an email',
