@@ -425,7 +425,17 @@ ninja.data = [{
           section: "Tin tức",},{id: "news-a-paper-transitional-patterns-for-tick-shape-backbones-has-been-accepted-for-presentation-in-2025-international-symposium-on-communications-and-information-technologies-scopus-rank-b",
           title: 'A paper: “Transitional Patterns for Tick-Shape Backbones” has been accepted for presentation in...',
           description: "",
-          section: "Tin tức",},{id: "projects-lidar",
+          section: "Tin tức",},{id: "news-cập-nhật-danh-sách-công-bố-từ-google-scholar",
+          title: 'Cập nhật danh sách công bố từ Google Scholar',
+          description: "",
+          section: "Tin tức",handler: () => {
+              window.location.href = "/vi-vn/news/2026-05-18-scholar-publications/";
+            },},{id: "news-đề-tài-uav-và-ai-hỗ-trợ-chữa-cháy-cứu-nạn-cứu-hộ-tại-bắc-ninh",
+          title: 'Đề tài UAV và AI hỗ trợ chữa cháy, cứu nạn cứu hộ...',
+          description: "",
+          section: "Tin tức",handler: () => {
+              window.location.href = "/vi-vn/news/2026-05-18-uav-ai-fire-rescue-project/";
+            },},{id: "projects-lidar",
           title: 'LIDAR',
           description: "back ground",
           section: "Dự án",handler: () => {
