@@ -16,21 +16,21 @@ const ninja = document.querySelector('ninja-keys');
 ninja.data = [{
     id: "nav-trang-chủ",
     title: "Trang chủ",
-    section: "",
+    section: "Menu điều hướng",
     handler: () => {
       window.location.href = "/vi-vn/";
     },
   },{id: "nav-dự-án",
           title: "Dự án",
-          description: "Uma crescente coleção de seus projetos interessantes.",
-          section: "",
+          description: "Các dự án nghiên cứu và phát triển của AVIS Lab.",
+          section: "Menu điều hướng",
           handler: () => {
             window.location.href = "/vi-vn/projects/";
           },
         },{id: "nav-nhân-lực",
           title: "Nhân lực",
           description: "Thành viên của phòng thí nghiệm / nhóm nghiên cứu",
-          section: "",
+          section: "Menu điều hướng",
           handler: () => {
             window.location.href = "/vi-vn/people/";
           },
@@ -39,7 +39,7 @@ ninja.data = [{
           title: "a post with plotly.js",
         
         description: "this is what included plotly.js code could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2025/plotly/";
@@ -50,21 +50,10 @@ ninja.data = [{
           title: "a post with image galleries",
         
         description: "this is what included image galleries could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
       },{id: "post-a-post-with-tabs",
@@ -72,7 +61,7 @@ ninja.data = [{
           title: "a post with tabs",
         
         description: "this is what included tabs in a post could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2024/tabs/";
@@ -83,7 +72,7 @@ ninja.data = [{
           title: "a post with typograms",
         
         description: "this is what included typograms code could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2024/typograms/";
@@ -94,7 +83,7 @@ ninja.data = [{
           title: "a post that can be cited",
         
         description: "this is what a post that can be cited looks like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2024/post-citation/";
@@ -105,7 +94,7 @@ ninja.data = [{
           title: "a post with pseudo code",
         
         description: "this is what included pseudo code could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2024/pseudocode/";
@@ -116,7 +105,7 @@ ninja.data = [{
           title: "a post with code diff",
         
         description: "this is how you can display code diffs",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2024/code-diff/";
@@ -127,7 +116,7 @@ ninja.data = [{
           title: "a post with advanced image components",
         
         description: "this is what advanced image components could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2024/advanced-images/";
@@ -138,7 +127,7 @@ ninja.data = [{
           title: "a post with vega lite",
         
         description: "this is what included vega lite code could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2024/vega-lite/";
@@ -149,7 +138,7 @@ ninja.data = [{
           title: "a post with geojson",
         
         description: "this is what included geojson code could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2024/geojson-map/";
@@ -160,7 +149,7 @@ ninja.data = [{
           title: "a post with echarts",
         
         description: "this is what included echarts code could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2024/echarts/";
@@ -171,7 +160,7 @@ ninja.data = [{
           title: "a post with chart.js",
         
         description: "this is what included chart.js code could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2024/chartjs/";
@@ -182,7 +171,7 @@ ninja.data = [{
           title: "a post with TikZJax",
         
         description: "this is what included TikZ code could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2023/tikzjax/";
@@ -193,7 +182,7 @@ ninja.data = [{
           title: "a post with bibliography",
         
         description: "an example of a blog post with bibliography",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2023/post-bibliography/";
@@ -204,7 +193,7 @@ ninja.data = [{
           title: "a post with jupyter notebook",
         
         description: "an example of a blog post with jupyter notebook",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2023/jupyter-notebook/";
@@ -215,7 +204,7 @@ ninja.data = [{
           title: "a post with custom blockquotes",
         
         description: "an example of a blog post with custom blockquotes",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2023/custom-blockquotes/";
@@ -226,7 +215,7 @@ ninja.data = [{
           title: "a post with table of contents on a sidebar",
         
         description: "an example of a blog post with table of contents on a sidebar",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2023/sidebar-table-of-contents/";
@@ -237,7 +226,7 @@ ninja.data = [{
           title: "a post with audios",
         
         description: "this is what included audios could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2023/audios/";
@@ -248,7 +237,7 @@ ninja.data = [{
           title: "a post with videos",
         
         description: "this is what included videos could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2023/videos/";
@@ -259,7 +248,7 @@ ninja.data = [{
           title: "displaying beautiful tables with Bootstrap Tables",
         
         description: "an example of how to use Bootstrap Tables",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2023/tables/";
@@ -270,7 +259,7 @@ ninja.data = [{
           title: "a post with table of contents",
         
         description: "an example of a blog post with table of contents",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2023/table-of-contents/";
@@ -281,21 +270,10 @@ ninja.data = [{
           title: "a post with giscus comments",
         
         description: "an example of a blog post with giscus comments",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
       },{id: "post-a-post-with-redirect",
@@ -303,7 +281,7 @@ ninja.data = [{
           title: "a post with redirect",
         
         description: "you can also redirect to assets like pdf",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/assets/pdf/en-us/example_pdf.pdf";
@@ -314,7 +292,7 @@ ninja.data = [{
           title: "a post with diagrams",
         
         description: "an example of a blog post with diagrams",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2021/diagrams/";
@@ -325,7 +303,7 @@ ninja.data = [{
           title: "a post with twitter",
         
         description: "an example of a blog post with twitter",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2020/twitter/";
@@ -336,7 +314,7 @@ ninja.data = [{
           title: "a distill-style blog post",
         
         description: "an example of a distill-style blog post and main elements",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2018/distill/";
@@ -347,7 +325,7 @@ ninja.data = [{
           title: "a post with disqus comments",
         
         description: "an example of a blog post with disqus comments",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2015/disqus-comments/";
@@ -358,7 +336,7 @@ ninja.data = [{
           title: "a post with math",
         
         description: "an example of a blog post with some math",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2015/math/";
@@ -369,7 +347,7 @@ ninja.data = [{
           title: "a post with code",
         
         description: "an example of a blog post with some code",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2015/code/";
@@ -380,7 +358,7 @@ ninja.data = [{
           title: "a post with images",
         
         description: "this is what included images could look like",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2015/images/";
@@ -391,7 +369,7 @@ ninja.data = [{
           title: "a post with formatting and links",
         
         description: "march &amp; april, looking forward to summer",
-        section: "",
+        section: "Bài đăng",
         handler: () => {
           
             window.location.href = "/vi-vn/blog/2015/formatting-and-links/";
@@ -410,153 +388,153 @@ ninja.data = [{
             },},{id: "news-announcement-1",
           title: 'Announcement_1',
           description: "",
-          section: "",handler: () => {
+          section: "Tin tức",handler: () => {
               window.location.href = "/vi-vn/news/pt-br/announcement_1/";
             },},{id: "news-um-anúncio-longo-com-detalhes",
           title: 'Um anúncio longo com detalhes',
           description: "",
-          section: "",handler: () => {
+          section: "Tin tức",handler: () => {
               window.location.href = "/vi-vn/news/pt-br/announcement_2/";
             },},{id: "news-um-anúncio-simples-em-uma-linha-com-markdown-emoji-sparkles-smile",
           title: 'Um anúncio simples em uma linha com Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "",},{id: "news-sparkles-our-project-researching-and-designing-a-novel-and-optimized-neural-network-based-on-interleaved-multi-features-to-improve-image-classification-performance-has-been-granted-by-nafosted-for-36-months-member-and-scientific-secretary-id-number-102-01-2024-23",
+          section: "Tin tức",},{id: "news-sparkles-our-project-researching-and-designing-a-novel-and-optimized-neural-network-based-on-interleaved-multi-features-to-improve-image-classification-performance-has-been-granted-by-nafosted-for-36-months-member-and-scientific-secretary-id-number-102-01-2024-23",
           title: ':sparkles: Our project “Researching and designing a novel and optimized neural network based...',
           description: "",
-          section: "",},{id: "news-a-paper-multi-agent-robot-swarms-a-review-of-sensing-and-perceptual-strategies-for-robocup-soccer-has-been-accepted-to-the-11th-international-conference-on-mechatronics-and-robotics-engineering-icmre-lille-france",
+          section: "Tin tức",},{id: "news-a-paper-multi-agent-robot-swarms-a-review-of-sensing-and-perceptual-strategies-for-robocup-soccer-has-been-accepted-to-the-11th-international-conference-on-mechatronics-and-robotics-engineering-icmre-lille-france",
           title: 'A paper: “Multi-Agent Robot Swarms: A Review of Sensing and Perceptual Strategies for...',
           description: "",
-          section: "",},{id: "news-a-paper-a-light-weight-backbone-to-adapt-with-extracting-grouped-dilation-features-has-been-accepted-for-publication-in-pattern-analysis-and-applications-paa-isi-scopus-q2-if-3-7-2023-collaboration-with-ass-prof-phd-thanh-tuan-nguyen-hcmc-university-of-technology-and-education-vietnam-and-prof-phd-thanh-phuong-nguyen-university-of-cote-d-azur-france",
+          section: "Tin tức",},{id: "news-a-paper-a-light-weight-backbone-to-adapt-with-extracting-grouped-dilation-features-has-been-accepted-for-publication-in-pattern-analysis-and-applications-paa-isi-scopus-q2-if-3-7-2023-collaboration-with-ass-prof-phd-thanh-tuan-nguyen-hcmc-university-of-technology-and-education-vietnam-and-prof-phd-thanh-phuong-nguyen-university-of-cote-d-azur-france",
           title: 'A paper: “A light-weight backbone to adapt with extracting grouped dilation features” has...',
           description: "",
-          section: "",},{id: "news-encouragement-award-of-the-technology-innovation-competition",
+          section: "Tin tức",},{id: "news-encouragement-award-of-the-technology-innovation-competition",
           title: 'Encouragement Award of the Technology Innovation Competition',
           description: "",
-          section: "",},{id: "news-sparkles-autonomous-vehicles-and-intelligent-systems-laboratory-avis-lab-was-established-under-decision-no-1665-qd-hv-of-the-director-of-the-posts-and-telecommunications-institute-of-technology-ptit-avis-lab-specializes-in-autonomous-vehicles-intelligent-robots-steam-robots-and-ai-driven-applications-in-robotics",
+          section: "Tin tức",},{id: "news-sparkles-autonomous-vehicles-and-intelligent-systems-laboratory-avis-lab-was-established-under-decision-no-1665-qd-hv-of-the-director-of-the-posts-and-telecommunications-institute-of-technology-ptit-avis-lab-specializes-in-autonomous-vehicles-intelligent-robots-steam-robots-and-ai-driven-applications-in-robotics",
           title: '🚀 :sparkles: Autonomous Vehicles and Intelligent Systems Laboratory (AViS Lab.) was established under...',
           description: "",
-          section: "",},{id: "news-3rd-place-in-the-ptit-robot-soccer-competition",
+          section: "Tin tức",},{id: "news-3rd-place-in-the-ptit-robot-soccer-competition",
           title: '3rd Place in the PTIT Robot Soccer Competition',
           description: "",
-          section: "",},{id: "news-a-paper-implementation-of-compressed-sensing-method-for-foot-pressure-reconstruction-based-on-ai-has-been-accepted-for-presentation-in-2025-international-conference-on-advanced-technologies-for-communications-scopus",
+          section: "Tin tức",},{id: "news-a-paper-implementation-of-compressed-sensing-method-for-foot-pressure-reconstruction-based-on-ai-has-been-accepted-for-presentation-in-2025-international-conference-on-advanced-technologies-for-communications-scopus",
           title: 'A paper: “Implementation of Compressed Sensing Method for Foot Pressure Reconstruction Based on...',
           description: "",
-          section: "",},{id: "news-the-paper-implementation-of-compressed-sensing-method-for-foot-pressure-reconstruction-based-on-ai-was-presented-at-the-atc-international-conference-indexed-in-scopus",
+          section: "Tin tức",},{id: "news-the-paper-implementation-of-compressed-sensing-method-for-foot-pressure-reconstruction-based-on-ai-was-presented-at-the-atc-international-conference-indexed-in-scopus",
           title: 'The paper “Implementation of Compressed Sensing Method for Foot Pressure Reconstruction Based on...',
           description: "",
-          section: "",},{id: "news-a-paper-transitional-patterns-for-tick-shape-backbones-has-been-accepted-for-presentation-in-2025-international-symposium-on-communications-and-information-technologies-scopus-rank-b",
+          section: "Tin tức",},{id: "news-a-paper-transitional-patterns-for-tick-shape-backbones-has-been-accepted-for-presentation-in-2025-international-symposium-on-communications-and-information-technologies-scopus-rank-b",
           title: 'A paper: “Transitional Patterns for Tick-Shape Backbones” has been accepted for presentation in...',
           description: "",
-          section: "",},{id: "projects-lidar",
+          section: "Tin tức",},{id: "projects-lidar",
           title: 'LIDAR',
           description: "back ground",
-          section: "",handler: () => {
+          section: "Dự án",handler: () => {
               window.location.href = "/vi-vn/projects/7_project/";
             },},{id: "projects-stereo",
           title: 'Stereo',
           description: "stereo with camera",
-          section: "",handler: () => {
+          section: "Dự án",handler: () => {
               window.location.href = "/vi-vn/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
-          section: "",handler: () => {
+          section: "Dự án",handler: () => {
               window.location.href = "/vi-vn/projects/9_project/";
             },},{id: "projects-orbslam3",
           title: 'ORBSLAM3',
           description: "Localization",
-          section: "",handler: () => {
+          section: "Dự án",handler: () => {
               window.location.href = "/vi-vn/projects/en-us/1_project/";
             },},{id: "projects-uav-development-project",
           title: 'UAV Development Project',
           description: "research, development, and testing of a multi-purpose UAV system",
-          section: "",handler: () => {
+          section: "Dự án",handler: () => {
               window.location.href = "/vi-vn/projects/en-us/2_project/";
             },},{id: "projects-uuv-development-project-for-underwater-exploration",
           title: 'UUV Development Project for Underwater Exploration',
           description: "development and testing of an unmanned underwater vehicle system",
-          section: "",handler: () => {
+          section: "Dự án",handler: () => {
               window.location.href = "/vi-vn/projects/en-us/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
-          section: "",handler: () => {
+          section: "Dự án",handler: () => {
               window.location.href = "/vi-vn/projects/en-us/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
-          section: "",handler: () => {
+          section: "Dự án",handler: () => {
               window.location.href = "/vi-vn/projects/en-us/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
-          section: "",handler: () => {
+          section: "Dự án",handler: () => {
               window.location.href = "/vi-vn/projects/en-us/6_project/";
             },},{
         id: 'social-email',
-        title: '',
-        section: '',
+        title: 'Gửi email',
+        section: 'Mạng xã hội',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:", "_blank");
         },
       },{
         id: 'social-inspire',
         title: 'Inspire HEP',
-        section: '',
+        section: 'Mạng xã hội',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://inspirehep.net/authors/", "_blank");
         },
       },{
         id: 'social-rss',
         title: 'RSS Feed',
-        section: '',
+        section: 'Mạng xã hội',
         handler: () => {
           window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
         title: 'Google Scholar',
-        section: '',
+        section: 'Mạng xã hội',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://scholar.google.com/citations?user=", "_blank");
         },
       },{
         id: 'social-custom_social',
         title: 'Custom_social',
-        section: '',
+        section: 'Mạng xã hội',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://avislab-ptit.github.io/", "_blank");
         },
       },{
           id: 'lang-en-us',
           title: 'en-us',
-          section: '',
+          section: 'Ngôn ngữ',
           handler: () => {
             window.location.href = "" + updatedUrl;
           },
         },{
       id: 'light-theme',
-      title: '',
-      description: '',
-      section: '',
+      title: 'Chuyển giao diện sang sáng',
+      description: 'Chuyển giao diện trang web sang sáng',
+      section: 'Giao diện',
       handler: () => {
         setThemeSetting("light");
       },
     },
     {
       id: 'dark-theme',
-      title: '',
-      description: '',
-      section: '',
+      title: 'Chuyển giao diện sang tối',
+      description: 'Chuyển giao diện trang web sang tối',
+      section: 'Giao diện',
       handler: () => {
         setThemeSetting("dark");
       },
     },
     {
       id: 'system-theme',
-      title: '',
-      description: '',
-      section: '',
+      title: 'Sử dụng giao diện mặc định của hệ thống',
+      description: 'Chuyển giao diện trang web sang mặc định của hệ thống',
+      section: 'Giao diện',
       handler: () => {
         setThemeSetting("system");
       },
