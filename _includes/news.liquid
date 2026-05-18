@@ -1,6 +1,8 @@
 <div class="news">
-  {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
+  {% assign news_path = site.active_lang | prepend: '_news/' %}
+  {% assign localized_news = site.news | where_exp: 'item', 'item.path contains news_path' %}
+  {% if localized_news != blank %}
+    {% assign news_size = localized_news | size %}
     <div
       class="table-responsive"
       {% if include.limit and page.announcements.scrollable and news_size > 3 %}
@@ -8,7 +10,7 @@
       {% endif %}
     >
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
+        {% assign news = localized_news | reverse %}
         {% if include.limit and page.announcements.limit %}
           {% assign news_limit = page.announcements.limit %}
         {% else %}
