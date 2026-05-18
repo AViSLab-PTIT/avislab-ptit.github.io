@@ -1,0 +1,347 @@
+{% if site.active_lang == 'vi-vn' %}
+  <div class="projects-showcase">
+    <section class="projects-overview">
+      <div class="projects-overview__copy">
+        <p class="projects-eyebrow">Nghiên cứu và phát triển hệ thống</p>
+        <h2>Nền tảng tự hành, robot thông minh và cảm biến cho môi trường thực</h2>
+        <p>
+          AVIS Lab phát triển các hệ thống robot từ tầng cảm biến, định vị, điều khiển đến thử nghiệm nguyên mẫu. Các dự án tập trung vào UAV, UUV,
+          SLAM, LiDAR, stereo vision và các bài toán AI ứng dụng trong robot.
+        </p>
+        <div class="projects-actions">
+          <a class="projects-action" href="{{ '/news/' | relative_url }}">
+            <i class="ti ti-news"></i>
+            Tin mới
+          </a>
+          <a class="projects-action" href="{{ '/people/' | relative_url }}">
+            <i class="ti ti-users"></i>
+            Nhóm nghiên cứu
+          </a>
+        </div>
+      </div>
+      <dl class="projects-metrics">
+        <div>
+          <dt>5</dt>
+          <dd>hướng dự án chính</dd>
+        </div>
+        <div>
+          <dt>UAV/UUV</dt>
+          <dd>nền tảng robot tự hành</dd>
+        </div>
+        <div>
+          <dt>AI + Sensors</dt>
+          <dd>nhận thức, định vị, điều khiển</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="projects-section">
+      <div class="projects-section__header">
+        <p class="projects-eyebrow">Dự án nổi bật</p>
+        <h2>UAV và AI hỗ trợ chữa cháy, cứu nạn cứu hộ</h2>
+        <p>
+          Đề tài cấp Bộ do TS. Phạm Hoàng Anh chủ trì, hướng tới hệ thống UAV tích hợp camera quang học, camera nhiệt, trạm mặt đất và AI phân tích
+          hiện trường.
+        </p>
+      </div>
+      <a class="project-featured" href="{{ '/news/2026-05-18-uav-ai-fire-rescue-project/' | relative_url }}">
+        <div class="project-featured__media">
+          {% include figure.liquid loading="lazy" path="assets/img/uav1.png" sizes="(min-width: 992px) 46vw, 95vw" alt="UAV research platform" class="img-fluid" %}
+        </div>
+        <div class="project-featured__body">
+          <span class="project-status"><i class="ti ti-flask"></i> Đề tài cấp Bộ</span>
+          <h3>Hệ thống UAV, bản đồ số và AI nhận diện hiện trường</h3>
+          <p>
+            Tập trung vào bay tự động, thu thập dữ liệu camera, hiển thị dữ liệu thời gian thực, phân tích quy mô đám cháy và phát hiện người trong
+            khu vực quan sát.
+          </p>
+          <div class="project-tags">
+            <span>UAV</span>
+            <span>Thermal camera</span>
+            <span>AI perception</span>
+            <span>Mission planning</span>
+          </div>
+          <span class="project-link-label">
+            Xem chi tiết
+            <i class="ti ti-arrow-right"></i>
+          </span>
+        </div>
+      </a>
+    </section>
+
+    <section class="projects-section">
+      <div class="projects-section__header">
+        <p class="projects-eyebrow">Năng lực triển khai</p>
+        <h2>Các mảng kỹ thuật AVIS Lab đang xây dựng</h2>
+      </div>
+      <div class="projects-capability-grid">
+        <div class="projects-capability">
+          <i class="ti ti-map-2"></i>
+          <h3>SLAM và định vị</h3>
+          <p>Bản đồ hóa, tracking, visual-inertial odometry và quản lý bản đồ cho robot di động.</p>
+        </div>
+        <div class="projects-capability">
+          <i class="ti ti-drone"></i>
+          <h3>UAV tự hành</h3>
+          <p>Thiết kế khung, tích hợp payload, trạm mặt đất, telemetry và bay theo nhiệm vụ.</p>
+        </div>
+        <div class="projects-capability">
+          <i class="ti ti-submarine"></i>
+          <h3>Robot dưới nước</h3>
+          <p>Điều khiển độ sâu, hướng, mô phỏng nhiệm vụ và thu thập dữ liệu môi trường.</p>
+        </div>
+        <div class="projects-capability">
+          <i class="ti ti-radar"></i>
+          <h3>Cảm biến 3D</h3>
+          <p>LiDAR, stereo camera và sensor fusion phục vụ nhận thức không gian.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section">
+      <div class="projects-section__header">
+        <p class="projects-eyebrow">Danh mục dự án</p>
+        <h2>Các nền tảng nghiên cứu đang được phát triển</h2>
+      </div>
+      <div class="projects-showcase-grid">
+        <a class="project-showcase-card" href="{{ '/projects/en-us/1_project/' | relative_url }}">
+          <div class="project-showcase-card__media">
+            {% include figure.liquid loading="lazy" path="assets/img/slam.png" sizes="(min-width: 992px) 30vw, 95vw" alt="ORB-SLAM3 localization map" class="img-fluid" %}
+          </div>
+          <div class="project-showcase-card__body">
+            <span class="project-status"><i class="ti ti-map"></i> Định vị và bản đồ</span>
+            <h3>ORB-SLAM3</h3>
+            <p>Hệ thống visual SLAM và visual-inertial SLAM cho định vị thời gian thực, tái tạo bản đồ và điều hướng robot.</p>
+            <div class="project-tags"><span>SLAM</span><span>VIO</span><span>Mapping</span></div>
+            <span class="project-link-label">Mở dự án <i class="ti ti-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <a class="project-showcase-card" href="{{ '/projects/en-us/2_project/' | relative_url }}">
+          <div class="project-showcase-card__media">
+            {% include figure.liquid loading="lazy" path="assets/img/uav2.png" sizes="(min-width: 992px) 30vw, 95vw" alt="UAV prototype assembly" class="img-fluid" %}
+          </div>
+          <div class="project-showcase-card__body">
+            <span class="project-status"><i class="ti ti-drone"></i> Nền tảng bay</span>
+            <h3>UAV Development</h3>
+            <p>Thiết kế, tích hợp và thử nghiệm UAV đa nhiệm cho giám sát, thu thập dữ liệu và bay tự động theo waypoint.</p>
+            <div class="project-tags"><span>Autopilot</span><span>GCS</span><span>Payload</span></div>
+            <span class="project-link-label">Mở dự án <i class="ti ti-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <a class="project-showcase-card" href="https://github.com/AViSLab-PTIT/OceanSim" rel="external nofollow noopener" target="_blank">
+          <div class="project-showcase-card__media">
+            {% include figure.liquid loading="lazy" path="assets/img/uuv2.png" sizes="(min-width: 992px) 30vw, 95vw" alt="UUV prototype test" class="img-fluid" %}
+          </div>
+          <div class="project-showcase-card__body">
+            <span class="project-status"><i class="ti ti-submarine"></i> UUV và mô phỏng</span>
+            <h3>OceanSim / UUV</h3>
+            <p>Nền tảng robot dưới nước phục vụ mô phỏng nhiệm vụ, điều khiển chuyển động và khảo sát môi trường.</p>
+            <div class="project-tags"><span>UUV</span><span>Simulation</span><span>Control</span></div>
+            <span class="project-link-label">Mở GitHub <i class="ti ti-external-link"></i></span>
+          </div>
+        </a>
+
+        <a class="project-showcase-card" href="{{ '/projects/7_project/' | relative_url }}">
+          <div class="project-showcase-card__media">
+            {% include figure.liquid loading="lazy" path="assets/img/lidar1.png" sizes="(min-width: 992px) 30vw, 95vw" alt="LiDAR sensor for 3D mapping" class="img-fluid" %}
+          </div>
+          <div class="project-showcase-card__body">
+            <span class="project-status"><i class="ti ti-radar"></i> Nhận thức 3D</span>
+            <h3>LiDAR Perception</h3>
+            <p>Cảm biến laser cho tái tạo không gian 3D, phát hiện vật cản và hỗ trợ định vị trong môi trường thiếu texture.</p>
+            <div class="project-tags"><span>LiDAR</span><span>3D sensing</span><span>Navigation</span></div>
+            <span class="project-link-label">Mở dự án <i class="ti ti-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <a class="project-showcase-card" href="{{ '/projects/8_project/' | relative_url }}">
+          <div class="project-showcase-card__media">
+            {% include figure.liquid loading="lazy" path="assets/img/st1.png" sizes="(min-width: 992px) 30vw, 95vw" alt="Stereo camera depth perception" class="img-fluid" %}
+          </div>
+          <div class="project-showcase-card__body">
+            <span class="project-status"><i class="ti ti-camera"></i> Thị giác robot</span>
+            <h3>Stereo Vision</h3>
+            <p>Ước lượng độ sâu từ camera stereo cho điều hướng, tránh vật cản và nhận thức hình học trong robot.</p>
+            <div class="project-tags"><span>Stereo</span><span>Depth</span><span>Vision</span></div>
+            <span class="project-link-label">Mở dự án <i class="ti ti-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+{% else %}
+  <div class="projects-showcase">
+    <section class="projects-overview">
+      <div class="projects-overview__copy">
+        <p class="projects-eyebrow">Research and system prototyping</p>
+        <h2>Autonomous platforms, robotic perception, and intelligent sensing</h2>
+        <p>
+          AVIS Lab develops robotics systems from sensing and localization to control, integration, and prototype testing. Current work spans UAVs,
+          UUVs, SLAM, LiDAR, stereo vision, and AI for real-world robotic missions.
+        </p>
+        <div class="projects-actions">
+          <a class="projects-action" href="{{ '/news/' | relative_url }}">
+            <i class="ti ti-news"></i>
+            Latest updates
+          </a>
+          <a class="projects-action" href="{{ '/people/' | relative_url }}">
+            <i class="ti ti-users"></i>
+            Research team
+          </a>
+        </div>
+      </div>
+      <dl class="projects-metrics">
+        <div>
+          <dt>5</dt>
+          <dd>active project tracks</dd>
+        </div>
+        <div>
+          <dt>UAV/UUV</dt>
+          <dd>autonomous robot platforms</dd>
+        </div>
+        <div>
+          <dt>AI + Sensors</dt>
+          <dd>perception, localization, control</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="projects-section">
+      <div class="projects-section__header">
+        <p class="projects-eyebrow">Featured project</p>
+        <h2>UAV and AI for firefighting and rescue support</h2>
+        <p>
+          A ministry-level project led by Dr. Pham Hoang Anh, targeting a UAV system with optical and thermal cameras, a ground station, digital maps,
+          and AI scene analysis.
+        </p>
+      </div>
+      <a class="project-featured" href="{{ '/news/2026-05-18-uav-ai-fire-rescue-project/' | relative_url }}">
+        <div class="project-featured__media">
+          {% include figure.liquid loading="lazy" path="assets/img/uav1.png" sizes="(min-width: 992px) 46vw, 95vw" alt="UAV research platform" class="img-fluid" %}
+        </div>
+        <div class="project-featured__body">
+          <span class="project-status"><i class="ti ti-flask"></i> Ministry-level project</span>
+          <h3>UAV, digital-map mission control, and AI scene perception</h3>
+          <p>
+            The system focuses on autonomous routing, camera-data collection, live visualization, fire-scene analysis, and human detection in observed
+            areas.
+          </p>
+          <div class="project-tags">
+            <span>UAV</span>
+            <span>Thermal camera</span>
+            <span>AI perception</span>
+            <span>Mission planning</span>
+          </div>
+          <span class="project-link-label">
+            Read more
+            <i class="ti ti-arrow-right"></i>
+          </span>
+        </div>
+      </a>
+    </section>
+
+    <section class="projects-section">
+      <div class="projects-section__header">
+        <p class="projects-eyebrow">Technical capabilities</p>
+        <h2>Core systems under development at AVIS Lab</h2>
+      </div>
+      <div class="projects-capability-grid">
+        <div class="projects-capability">
+          <i class="ti ti-map-2"></i>
+          <h3>SLAM and localization</h3>
+          <p>Mapping, tracking, visual-inertial odometry, and map management for mobile robots.</p>
+        </div>
+        <div class="projects-capability">
+          <i class="ti ti-drone"></i>
+          <h3>Autonomous UAVs</h3>
+          <p>Airframe design, payload integration, ground stations, telemetry, and mission flight.</p>
+        </div>
+        <div class="projects-capability">
+          <i class="ti ti-submarine"></i>
+          <h3>Underwater robotics</h3>
+          <p>Depth and heading control, simulated missions, and environmental data collection.</p>
+        </div>
+        <div class="projects-capability">
+          <i class="ti ti-radar"></i>
+          <h3>3D sensing</h3>
+          <p>LiDAR, stereo cameras, and sensor fusion for spatial understanding.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section">
+      <div class="projects-section__header">
+        <p class="projects-eyebrow">Project portfolio</p>
+        <h2>Research platforms currently being developed</h2>
+      </div>
+      <div class="projects-showcase-grid">
+        <a class="project-showcase-card" href="{{ '/projects/en-us/1_project/' | relative_url }}">
+          <div class="project-showcase-card__media">
+            {% include figure.liquid loading="lazy" path="assets/img/slam.png" sizes="(min-width: 992px) 30vw, 95vw" alt="ORB-SLAM3 localization map" class="img-fluid" %}
+          </div>
+          <div class="project-showcase-card__body">
+            <span class="project-status"><i class="ti ti-map"></i> Localization and mapping</span>
+            <h3>ORB-SLAM3</h3>
+            <p>Visual and visual-inertial SLAM for real-time localization, map reconstruction, and robot navigation.</p>
+            <div class="project-tags"><span>SLAM</span><span>VIO</span><span>Mapping</span></div>
+            <span class="project-link-label">Open project <i class="ti ti-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <a class="project-showcase-card" href="{{ '/projects/en-us/2_project/' | relative_url }}">
+          <div class="project-showcase-card__media">
+            {% include figure.liquid loading="lazy" path="assets/img/uav2.png" sizes="(min-width: 992px) 30vw, 95vw" alt="UAV prototype assembly" class="img-fluid" %}
+          </div>
+          <div class="project-showcase-card__body">
+            <span class="project-status"><i class="ti ti-drone"></i> Flight platform</span>
+            <h3>UAV Development</h3>
+            <p>Design, integration, and testing of a multi-purpose UAV for surveillance, data acquisition, and waypoint missions.</p>
+            <div class="project-tags"><span>Autopilot</span><span>GCS</span><span>Payload</span></div>
+            <span class="project-link-label">Open project <i class="ti ti-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <a class="project-showcase-card" href="https://github.com/AViSLab-PTIT/OceanSim" rel="external nofollow noopener" target="_blank">
+          <div class="project-showcase-card__media">
+            {% include figure.liquid loading="lazy" path="assets/img/uuv2.png" sizes="(min-width: 992px) 30vw, 95vw" alt="UUV prototype test" class="img-fluid" %}
+          </div>
+          <div class="project-showcase-card__body">
+            <span class="project-status"><i class="ti ti-submarine"></i> UUV and simulation</span>
+            <h3>OceanSim / UUV</h3>
+            <p>An underwater robotics platform for mission simulation, motion control, and environmental exploration.</p>
+            <div class="project-tags"><span>UUV</span><span>Simulation</span><span>Control</span></div>
+            <span class="project-link-label">Open GitHub <i class="ti ti-external-link"></i></span>
+          </div>
+        </a>
+
+        <a class="project-showcase-card" href="{{ '/projects/7_project/' | relative_url }}">
+          <div class="project-showcase-card__media">
+            {% include figure.liquid loading="lazy" path="assets/img/lidar1.png" sizes="(min-width: 992px) 30vw, 95vw" alt="LiDAR sensor for 3D mapping" class="img-fluid" %}
+          </div>
+          <div class="project-showcase-card__body">
+            <span class="project-status"><i class="ti ti-radar"></i> 3D perception</span>
+            <h3>LiDAR Perception</h3>
+            <p>Laser-based ranging for 3D mapping, obstacle detection, and localization support in low-texture environments.</p>
+            <div class="project-tags"><span>LiDAR</span><span>3D sensing</span><span>Navigation</span></div>
+            <span class="project-link-label">Open project <i class="ti ti-arrow-right"></i></span>
+          </div>
+        </a>
+
+        <a class="project-showcase-card" href="{{ '/projects/8_project/' | relative_url }}">
+          <div class="project-showcase-card__media">
+            {% include figure.liquid loading="lazy" path="assets/img/st1.png" sizes="(min-width: 992px) 30vw, 95vw" alt="Stereo camera depth perception" class="img-fluid" %}
+          </div>
+          <div class="project-showcase-card__body">
+            <span class="project-status"><i class="ti ti-camera"></i> Robot vision</span>
+            <h3>Stereo Vision</h3>
+            <p>Depth estimation from stereo cameras for navigation, obstacle awareness, and geometric perception.</p>
+            <div class="project-tags"><span>Stereo</span><span>Depth</span><span>Vision</span></div>
+            <span class="project-link-label">Open project <i class="ti ti-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+{% endif %}

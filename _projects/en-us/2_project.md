@@ -2,7 +2,7 @@
 page_id: project_2
 layout: page
 title: UAV Development Project
-description: research, development, and testing of a multi-purpose UAV system
+description: Design, integration, and testing of a multi-purpose autonomous UAV system.
 img: assets/img/uav1.png
 importance: 2
 category: work

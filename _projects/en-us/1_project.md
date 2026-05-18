@@ -1,8 +1,8 @@
 ---
 page_id: project_1
 layout: page
-title: ORBSLAM3
-description: Localization
+title: ORB-SLAM3
+description: Visual and visual-inertial localization and mapping for mobile robots.
 img: assets/img/slam.png
 importance: 1
 category: work

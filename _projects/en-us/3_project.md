@@ -2,7 +2,7 @@
 page_id: project_3
 layout: page
 title: UUV Development Project for Underwater Exploration
-description: development and testing of an unmanned underwater vehicle system
+description: Unmanned underwater vehicle development for exploration, control, and simulation.
 img: assets/img/uuv1.png
 redirect: https://github.com/AViSLab-PTIT/OceanSim
 importance: 3

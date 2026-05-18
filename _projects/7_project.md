@@ -1,7 +1,7 @@
 ---
 layout: page
-title: LIDAR
-description: back ground
+title: LiDAR Perception
+description: Laser-based 3D sensing for mapping, obstacle detection, and navigation.
 img: assets/img/lidar1.png
 importance: 1
 category: work

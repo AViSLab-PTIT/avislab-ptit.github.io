@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Stereo
-description: stereo with camera
+title: Stereo Vision
+description: Depth perception with stereo cameras for navigation and obstacle awareness.
 img: assets/img/st1.png
 importance: 2
 category: work
