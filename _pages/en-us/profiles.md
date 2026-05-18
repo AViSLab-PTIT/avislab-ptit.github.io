@@ -49,7 +49,7 @@ profiles:
     image_circular: false
     more_info: >
       <p>PhD. Trần Tiến Công</p>
-      
+
   - role: lecturer
     image: TS. Hoàng Mạnh Cường.jpg
     content: 6

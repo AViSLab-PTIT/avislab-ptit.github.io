@@ -7,8 +7,9 @@
   {% assign day = include.date | date: '%d' %}
   {% assign month_key = months[m] %}
   {% assign fmt = include.format | default: 'short' %}
-  {% assign month = site.data['en-us']['strings'].months[fmt][month_key] %}
-  {{ month }} {{ day }}, {{ year }}
+  {% assign month = site.data['en-us'].strings.months[fmt][month_key] %}
+  {{ month }}
+  {{ day }}, {{ year }}
 {%- else -%}
   {{ year }}
 {%- endif -%}

@@ -51,6 +51,4 @@ Stereo cameras offer several advantages including compact size, low power consum
 
 {% raw %}
 
-
-
 {% endraw %}

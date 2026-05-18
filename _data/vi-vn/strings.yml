@@ -1,0 +1,170 @@
+header:
+  about: "GIỚI THIỆU"
+  projects: "DỰ ÁN"
+  people: "NHÂN LỰC"
+  submenus: "DANH MỤC KHÁC"
+
+archive:
+  prefix: một tài liệu của
+  category_suffix: thuộc danh mục này
+  tag_suffix: với thẻ này
+  year_suffix: của năm này
+bibliography:
+  abstract: Tóm tắt
+  awarded: Được trao giải
+  blog: Blog
+  book_prefix: Trong
+  code: Mã nguồn
+  last_author_prefix: và
+  poster: Áp phích
+  slides: Slide
+  supp: Tài liệu bổ sung
+  video: Video
+  website: Trang web
+blog:
+  navigation_title: blog
+categories:
+  fun: giải trí
+  work: công việc
+citation:
+  bibtex: "hoặc là một trích dẫn BibTeX:"
+  introduction: "Nếu bạn thấy hữu ích, vui lòng trích dẫn như sau:"
+collections:
+  books: sách
+  posts: bài đăng
+contact_note: Bạn có thể thêm một ghi chú ngắn về cách tốt nhất để liên hệ với bạn.
+cv:
+  address: Địa chỉ
+  area: Khu vực
+  awarder: Được trao bởi
+  awards: Giải thưởng
+  basics: Thông tin chung
+  certificates: Chứng chỉ
+  city: Thành phố
+  countryCode: Mã quốc gia
+  courses: Khóa học
+  date: Ngày
+  education: Học vấn
+  email: Email
+  endDate: Ngày kết thúc
+  fluency: Độ lưu loát
+  highlights: Điểm nổi bật
+  image: Hình ảnh
+  institution: Tổ chức
+  interests: Sở thích
+  issuer: Đơn vị cấp
+  keywords: Từ khóa
+  label: Tiêu đề
+  language: Ngôn ngữ
+  languages: Ngôn ngữ
+  level: Cấp độ
+  location: Vị trí
+  name: Tên
+  network: Mạng lưới
+  organization: Tổ chức
+  phone: Điện thoại
+  position: Vị trí
+  postalCode: Mã bưu chính
+  present: Hiện tại
+  profiles: Hồ sơ
+  projects: Dự án
+  publications: Ấn phẩm
+  publisher: Nhà xuất bản
+  reference: Tài liệu tham khảo
+  references: Tài liệu tham khảo
+  region: Khu vực
+  releaseDate: Ngày phát hành
+  score: Điểm số
+  skills: Kỹ năng
+  startDate: Ngày bắt đầu
+  studyType: Loại hình học vấn
+  summary: Tóm lược
+  table_of_contents: Mục lục
+  title: Tiêu đề
+  url: Đường dẫn (URL)
+  username: Tên người dùng
+  volunteer: Tình nguyện
+  work: Công việc
+footer:
+  copyright: Bản quyền
+  last_updated: "Cập nhật lần cuối:"
+footer_text: > # ký hiệu ">" nghĩa là bỏ qua các dòng mới cho đến khi gặp "titles:"
+  Được phát triển bằng <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> với theme <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>.
+  Được lưu trữ bởi <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Ảnh từ <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+latest_posts: bài đăng mới nhất
+months:
+  long:
+    january: Tháng Một
+    february: Tháng Hai
+    march: Tháng Ba
+    april: Tháng Tư
+    may: Tháng Năm
+    june: Tháng Sáu
+    july: Tháng Bảy
+    august: Tháng Tám
+    september: Tháng Chín
+    october: Tháng Mười
+    november: Tháng Mười Một
+    december: Tháng Mười Hai
+  short:
+    january: T1
+    february: T2
+    march: T3
+    april: T4
+    may: T5
+    june: T6
+    july: T7
+    august: T8
+    september: T9
+    october: T10
+    november: T11
+    december: T12
+news: tin tức
+newsletter:
+  back: Quay lại
+  error: "Rất tiếc! Đã xảy ra lỗi, vui lòng thử lại."
+  subscribe: đăng ký
+  subscribed: "Bạn đã đăng ký nhận bản tin thành công."
+  subscribe_to_receive: "Đăng ký để được thông báo về các bài viết sắp tới:"
+  too_many_signups: "Có quá nhiều lượt đăng ký, vui lòng thử lại sau ít phút."
+  wait: "Vui lòng chờ..."
+no_news: Hiện không có tin tức nào...
+no_posts: "Chưa có bài đăng nào..."
+pagination:
+  page: trang
+post:
+  created_in: Được tạo vào
+  created_by: bởi
+  last_updated: cập nhật lần cuối vào
+references: Tài liệu tham khảo
+related_posts:
+  description: "Dưới đây là một số bài viết liên quan mà bạn có thể muốn đọc:"
+  title: Bạn thích đọc bài viết này không?
+search:
+  dark_theme:
+    description: Chuyển giao diện trang web sang tối
+    title: Chuyển giao diện sang tối
+  dropdown: Các tùy chọn khác
+  email: Gửi email
+  footer:
+    close: để đóng
+    navigate: để điều hướng
+    parent: trở về cấp trước
+    select: để chọn
+  languages: Ngôn ngữ
+  light_theme:
+    description: Chuyển giao diện trang web sang sáng
+    title: Chuyển giao diện sang sáng
+  navigation: Menu điều hướng
+  news: Tin tức
+  placeholder: Nhập để bắt đầu tìm kiếm
+  posts: Bài đăng
+  projects: Dự án
+  socials: Mạng xã hội
+  system_theme:
+    description: Chuyển giao diện trang web sang mặc định của hệ thống
+    title: Sử dụng giao diện mặc định của hệ thống
+  theme: Giao diện
+selected_publications: ấn phẩm chọn lọc
+site_description: Một theme đơn giản dành cho học thuật. Dựa trên thiết kế của [*folio](https://github.com/bogoli/-folio).

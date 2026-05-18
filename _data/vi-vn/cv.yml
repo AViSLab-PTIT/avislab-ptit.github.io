@@ -1,0 +1,32 @@
+- title: Thông tin chung
+  type: map
+  contents:
+    - name: Tên
+      value: AVIS Lab
+    - name: Đơn vị
+      value: Học viện Công nghệ Bưu chính Viễn thông (PTIT)
+    - name: Định hướng
+      value: Phương tiện tự hành, hệ thống thông minh, robot, AI và thị giác máy tính
+
+- title: Hướng nghiên cứu
+  type: nested_list
+  contents:
+    - title: Hệ thống tự hành
+      items:
+        - Nền tảng UAV, UGV, USV và AUV
+        - Dẫn đường, định vị, lập bản đồ và điều khiển
+    - title: Robot thông minh
+      items:
+        - Thị giác máy tính và học sâu cho nhận thức máy
+        - Học tăng cường và hệ thống ra quyết định
+    - title: Giáo dục và chuyển giao công nghệ
+      items:
+        - Giáo dục robot STEM
+        - Nhóm nghiên cứu sinh viên và nguyên mẫu ứng dụng
+
+- title: Hoạt động
+  type: list
+  contents:
+    - Nghiên cứu khoa học và công bố
+    - Hướng dẫn sinh viên trong lĩnh vực Robot và AI
+    - Hợp tác với đối tác học thuật và doanh nghiệp

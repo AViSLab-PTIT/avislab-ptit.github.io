@@ -2,15 +2,15 @@
 page_id: repositories
 layout: page
 permalink: /repositories/
-title: repositórios
-description: Edite o `_data/repositories.yml` e mude as listas `github_users` e `github_repos` para incluir seu próprio perfil do GitHub e repositórios.
+title: kho mã nguồn
+description: Các kho mã nguồn liên quan đến AVIS Lab.
 nav: false
 nav_order: 4
 ---
 
 {% if site.data.repositories.github_users %}
 
-## Usuários do GitHub
+## Tài khoản GitHub
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}

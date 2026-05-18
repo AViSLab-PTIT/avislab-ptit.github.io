@@ -5,8 +5,8 @@ permalink: /cv/
 title: cv
 nav: false
 nav_order: 5
-cv_pdf: example_pdf.pdf
-description: Esta é uma descrição da página. Você pode modificá-la em '_pages/cv.md'. Também pode alterar ou remover o botão no topo de download de pdf.
+cv_pdf:
+description: Hồ sơ năng lực của AVIS Lab.
 toc:
   sidebar: left
 ---
