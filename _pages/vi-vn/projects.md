@@ -3,7 +3,7 @@ page_id: projects
 layout: page
 title: Dự án
 permalink: /projects/
-description: Uma crescente coleção de seus projetos interessantes.
+description: Các dự án nghiên cứu và phát triển của AVIS Lab.
 nav: true
 nav_order: 3
 display_categories: [work, fun]

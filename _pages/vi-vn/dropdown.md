@@ -2,14 +2,15 @@
 id: dropdown
 layout: page
 title: Tuỳ chọn
+permalink: /dropdown/
 nav: false
 nav_order: 8
 dropdown: true
 children:
-  - title: publicações
+  - title: công bố
     permalink: /publications/
   - title: divider
-  - title: projetos
+  - title: dự án
     permalink: /projects/
   - title: divider
   - title: blog

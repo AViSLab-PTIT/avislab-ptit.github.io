@@ -56,7 +56,7 @@ profiles:
     image_circular: false
     more_info: >
       <p>TS. Hoàng Mạnh Cường</p>
-      
+
   - role: lecturer
     image: phamduccuong.png
     content: 7

@@ -60,6 +60,4 @@ Moreover, with the integration of IMU data and multi-map management, ORB-SLAM3 s
 
 {% raw %}
 
-
-
 {% endraw %}

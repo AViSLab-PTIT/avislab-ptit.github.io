@@ -3,8 +3,8 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: blog
-blog_name: al-folio em português brasileiro
-description: um tema simples para acadêmicos
+blog_name: Blog AVIS Lab
+description: Bài viết và cập nhật từ AVIS Lab
 nav: false
 nav_order: 1
 pagination:
