@@ -19,7 +19,11 @@
         {% for item in news limit: news_limit %}
           <tr>
             <th scope="row" style="min-width: 140px; white-space: nowrap;">
-              {% include date_format.liquid format='short' date=item.date %}
+              {% if item.year_only %}
+                {{ item.date | date: '%Y' }}
+              {% else %}
+                {% include date_format.liquid format='short' date=item.date %}
+              {% endif %}
             </th>
             <td>
               {% if item.inline %}
