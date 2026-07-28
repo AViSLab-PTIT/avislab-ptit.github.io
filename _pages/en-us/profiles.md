@@ -58,6 +58,13 @@ profiles:
       <p>PhD. Hoàng Mạnh Cường</p>
 
   - role: lecturer
+    image: vuanhdao.jpg
+    content: 14
+    image_circular: false
+    more_info: >
+      <p>PhD. Vũ Anh Đào</p>
+
+  - role: lecturer
     image: phamduccuong.png
     content: 7
     image_circular: false
