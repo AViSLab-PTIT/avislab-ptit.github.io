@@ -114,18 +114,18 @@ profiles:
       <p>ThS. Chu Văn Cường</p>
 
   - role: lecturer
-    image: nguyenquangbien.jpg
-    content: 15
-    image_circular: false
-    more_info: >
-      <p>ThS. Nguyễn Quang Biên</p>
-
-  - role: lecturer
     image: tranthithanhthuy.jpg
     content: 16
     image_circular: false
     more_info: >
       <p>ThS. Trần Thị Thanh Thuỷ</p>
+
+  - role: lecturer
+    image: nguyenquangbien.jpg
+    content: 15
+    image_circular: false
+    more_info: >
+      <p>ThS. Nguyễn Quang Biên</p>
 
   - role: student
     image: z6743028781835_b9353f5607af1ba5d8be2555c22fa390.jpg
